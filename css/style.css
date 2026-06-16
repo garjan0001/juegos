@@ -91,3 +91,45 @@ input{
     margin-top:5px;
     color:#00ff88;
 }
+/* =========================
+   FORMULARIO AÑADIR JUEGO
+========================= */
+
+.form-section{
+    padding:20px;
+    background:#181818;
+    margin:20px;
+    border-radius:10px;
+}
+
+form{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:10px;
+}
+
+form input{
+    padding:10px;
+    border:none;
+    border-radius:8px;
+}
+
+form button{
+    background:#00c853;
+    border:none;
+    padding:10px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:8px;
+}
+
+button{
+    margin-top:8px;
+    padding:6px;
+    background:#ff3d3d;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
