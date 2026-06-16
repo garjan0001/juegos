@@ -105,7 +105,8 @@ function render() {
 
         container.innerHTML += `
         <div class="card">
-            <img src="${j.portada}" onerror="this.src='https://placehold.co/300x420/111/ffffff?text=No+Image'">
+            <img src="${j.portada}" 
+     onerror="this.src='https://placehold.co/300x420/111/ffffff?text=Sin+Imagen'">
             <div class="card-info">
                 <h3>${j.titulo}</h3>
                 <p>${j.plataforma}</p>
