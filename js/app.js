@@ -28,13 +28,8 @@ function save() {
 
 function generarPortada(titulo, plataforma) {
 
-    // limpieza del título
-    const query = encodeURIComponent(
-        `${titulo} ${plataforma} box art`
-    );
-
-    // servicio simple sin API key
-    return `https://www.google.com/search?tbm=isch&q=${query}`;
+    // Esto genera una "carátula temporal" que SI se ve
+    return `https://via.placeholder.com/300x420?text=${encodeURIComponent(titulo)}`;
 }
 
 /* =========================
