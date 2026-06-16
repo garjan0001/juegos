@@ -13,6 +13,13 @@
     "region": "PAL ESP",
     "portada": "covers/ps1/resident-evil-2.jpg"
   },
+    {
+    "titulo": "Resident Evil 2 Remake",
+    "plataforma": "PlayStation 4",
+    "generacion": "8ª Generación",
+    "region": "PAL ESP",
+    "portada": "covers/ps4/resident-evil-2-remake.jpg"
+  },
   {
     "titulo": "Shenmue",
     "plataforma": "Dreamcast",
