@@ -1,0 +1,23 @@
+[
+  {
+    "titulo": "Metal Gear Solid",
+    "plataforma": "PlayStation",
+    "generacion": "5ª Generación",
+    "region": "PAL ESP",
+    "portada": "covers/ps1/metal-gear-solid.jpg"
+  },
+  {
+    "titulo": "Resident Evil 2",
+    "plataforma": "PlayStation",
+    "generacion": "5ª Generación",
+    "region": "PAL ESP",
+    "portada": "covers/ps1/resident-evil-2.jpg"
+  },
+  {
+    "titulo": "Shenmue",
+    "plataforma": "Dreamcast",
+    "generacion": "6ª Generación",
+    "region": "PAL",
+    "portada": "covers/dreamcast/shenmue.jpg"
+  }
+]
