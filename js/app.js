@@ -1,13 +1,16 @@
 let juegos = [];
 
-const STORAGE_KEY = "mi_coleccion_juegos";
+const STORAGE_KEY = "coleccion_juegos";
 
+/* =========================
+   INIT
+========================= */
 async function init() {
 
-    const stored = localStorage.getItem(STORAGE_KEY);
+    const saved = localStorage.getItem(STORAGE_KEY);
 
-    if (stored) {
-        juegos = JSON.parse(stored);
+    if (saved) {
+        juegos = JSON.parse(saved);
     } else {
         const res = await fetch("data/juegos.json");
         juegos = await res.json();
@@ -16,54 +19,56 @@ async function init() {
 
     cargarPlataformas();
     render();
+
+    document.getElementById("gameForm")
+        .addEventListener("submit", addGame);
 }
 
+/* =========================
+   GUARDAR
+========================= */
 function save() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(juegos));
 }
 
 /* =========================
-   PORTADAS AUTOMÁTICAS
+   PORTADAS (FUNCIONALES)
+   -> EVITA ERRORES
 ========================= */
-
 function generarPortada(titulo, plataforma) {
 
-    // Esto genera una "carátula temporal" que SI se ve
+    // fallback seguro (siempre funciona)
     return `https://via.placeholder.com/300x420?text=${encodeURIComponent(titulo)}`;
 }
 
 /* =========================
    AÑADIR JUEGO
 ========================= */
-
 function addGame(e) {
     e.preventDefault();
 
-    const titulo = document.getElementById("title").value;
-    const plataforma = document.getElementById("platform").value;
-    const generacion = document.getElementById("generation").value;
-    const region = document.getElementById("region").value;
-
     const juego = {
         id: Date.now(),
-        titulo,
-        plataforma,
-        generacion,
-        region,
-        portada: generarPortada(titulo, plataforma)
+        titulo: document.getElementById("title").value,
+        plataforma: document.getElementById("platform").value,
+        generacion: document.getElementById("generation").value,
+        region: document.getElementById("region").value,
+        portada: generarPortada(
+            document.getElementById("title").value,
+            document.getElementById("platform").value
+        )
     };
 
     juegos.push(juego);
-
     save();
     render();
+
     e.target.reset();
 }
 
 /* =========================
-   ELIMINAR
+   BORRAR
 ========================= */
-
 function deleteGame(id) {
     juegos = juegos.filter(j => j.id !== id);
     save();
@@ -71,10 +76,9 @@ function deleteGame(id) {
 }
 
 /* =========================
-   FILTROS
+   FILTRO
 ========================= */
-
-function filterGames() {
+function getFiltered() {
 
     const text = document.getElementById("search").value.toLowerCase();
     const platform = document.getElementById("platformFilter").value;
@@ -91,28 +95,26 @@ function filterGames() {
 /* =========================
    RENDER
 ========================= */
-
 function render() {
 
     const container = document.getElementById("gamesContainer");
-    const lista = filterGames();
+    const list = getFiltered();
 
     container.innerHTML = "";
 
-    lista.forEach(j => {
+    list.forEach(j => {
 
         container.innerHTML += `
-        <div class="game-card">
+        <div class="card">
             <img src="${j.portada}" alt="${j.titulo}">
+            <div class="card-info">
+                <h3>${j.titulo}</h3>
+                <p>${j.plataforma}</p>
+                <p>${j.generacion}</p>
+                <p>${j.region}</p>
 
-            <div class="game-info">
-                <div class="game-title">${j.titulo}</div>
-                <div>${j.plataforma}</div>
-                <div>${j.generacion}</div>
-                <div>${j.region}</div>
-
-                <button onclick="deleteGame(${j.id})">
-                    ❌ Eliminar
+                <button class="delete" onclick="deleteGame(${j.id})">
+                    Eliminar
                 </button>
             </div>
         </div>
@@ -120,13 +122,12 @@ function render() {
     });
 
     document.getElementById("stats").textContent =
-        `Total: ${lista.length} juegos`;
+        `Total juegos: ${list.length}`;
 }
 
 /* =========================
    PLATAFORMAS
 ========================= */
-
 function cargarPlataformas() {
 
     const select = document.getElementById("platformFilter");
@@ -144,7 +145,6 @@ function cargarPlataformas() {
 /* =========================
    EVENTOS
 ========================= */
-
 document.getElementById("search").addEventListener("input", render);
 document.getElementById("platformFilter").addEventListener("change", render);
 
