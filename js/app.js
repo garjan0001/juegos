@@ -35,10 +35,9 @@ function save() {
    PORTADAS (FUNCIONALES)
    -> EVITA ERRORES
 ========================= */
-function generarPortada(titulo, plataforma) {
+function generarPortada(titulo) {
 
-    // fallback seguro (siempre funciona)
-    return `https://via.placeholder.com/300x420?text=${encodeURIComponent(titulo)}`;
+    return `https://placehold.co/300x420/111/ffffff?text=${encodeURIComponent(titulo)}`;
 }
 
 /* =========================
