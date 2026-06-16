@@ -1,110 +1,156 @@
 let juegos = [];
 
-async function cargarDatos() {
+const STORAGE_KEY = "mi_coleccion_juegos";
 
-    const response = await fetch("data/juegos.json");
-    juegos = await response.json();
+async function init() {
+
+    const stored = localStorage.getItem(STORAGE_KEY);
+
+    if (stored) {
+        juegos = JSON.parse(stored);
+    } else {
+        const res = await fetch("data/juegos.json");
+        juegos = await res.json();
+        save();
+    }
 
     cargarPlataformas();
-    renderizar(juegos);
+    render();
 }
 
-function cargarPlataformas() {
+function save() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(juegos));
+}
 
-    const plataformas = [
-        ...new Set(
-            juegos.map(j => j.plataforma)
-        )
-    ];
+/* =========================
+   PORTADAS AUTOMÁTICAS
+========================= */
 
-    const select =
-        document.getElementById("platformFilter");
+function generarPortada(titulo, plataforma) {
 
-    plataformas.sort().forEach(plataforma => {
+    // limpieza del título
+    const query = encodeURIComponent(
+        `${titulo} ${plataforma} box art`
+    );
 
-        const option =
-            document.createElement("option");
+    // servicio simple sin API key
+    return `https://www.google.com/search?tbm=isch&q=${query}`;
+}
 
-        option.value = plataforma;
-        option.textContent = plataforma;
+/* =========================
+   AÑADIR JUEGO
+========================= */
 
-        select.appendChild(option);
+function addGame(e) {
+    e.preventDefault();
+
+    const titulo = document.getElementById("title").value;
+    const plataforma = document.getElementById("platform").value;
+    const generacion = document.getElementById("generation").value;
+    const region = document.getElementById("region").value;
+
+    const juego = {
+        id: Date.now(),
+        titulo,
+        plataforma,
+        generacion,
+        region,
+        portada: generarPortada(titulo, plataforma)
+    };
+
+    juegos.push(juego);
+
+    save();
+    render();
+    e.target.reset();
+}
+
+/* =========================
+   ELIMINAR
+========================= */
+
+function deleteGame(id) {
+    juegos = juegos.filter(j => j.id !== id);
+    save();
+    render();
+}
+
+/* =========================
+   FILTROS
+========================= */
+
+function filterGames() {
+
+    const text = document.getElementById("search").value.toLowerCase();
+    const platform = document.getElementById("platformFilter").value;
+
+    return juegos.filter(j => {
+
+        const matchText = j.titulo.toLowerCase().includes(text);
+        const matchPlatform = !platform || j.plataforma === platform;
+
+        return matchText && matchPlatform;
     });
 }
 
-function renderizar(lista) {
+/* =========================
+   RENDER
+========================= */
 
-    const container =
-        document.getElementById("gamesContainer");
+function render() {
+
+    const container = document.getElementById("gamesContainer");
+    const lista = filterGames();
 
     container.innerHTML = "";
 
-    lista.forEach(juego => {
+    lista.forEach(j => {
 
         container.innerHTML += `
-            <div class="game-card">
-                <img src="${juego.portada}" alt="${juego.titulo}">
+        <div class="game-card">
+            <img src="${j.portada}" alt="${j.titulo}">
 
-                <div class="game-info">
-                    <div class="game-title">
-                        ${juego.titulo}
-                    </div>
+            <div class="game-info">
+                <div class="game-title">${j.titulo}</div>
+                <div>${j.plataforma}</div>
+                <div>${j.generacion}</div>
+                <div>${j.region}</div>
 
-                    <div class="platform">
-                        ${juego.plataforma}
-                    </div>
-
-                    <div class="generation">
-                        ${juego.generacion}
-                    </div>
-
-                    <div class="region">
-                        ${juego.region}
-                    </div>
-                </div>
+                <button onclick="deleteGame(${j.id})">
+                    ❌ Eliminar
+                </button>
             </div>
+        </div>
         `;
     });
 
     document.getElementById("stats").textContent =
-        `${lista.length} juegos encontrados`;
+        `Total: ${lista.length} juegos`;
 }
 
-function filtrar() {
+/* =========================
+   PLATAFORMAS
+========================= */
 
-    const texto =
-        document.getElementById("search")
-        .value
-        .toLowerCase();
+function cargarPlataformas() {
 
-    const plataforma =
-        document.getElementById("platformFilter")
-        .value;
+    const select = document.getElementById("platformFilter");
 
-    const resultado = juegos.filter(juego => {
+    const plataformas = [...new Set(juegos.map(j => j.plataforma))];
 
-        const coincideTitulo =
-            juego.titulo
-            .toLowerCase()
-            .includes(texto);
-
-        const coincidePlataforma =
-            plataforma === "" ||
-            juego.plataforma === plataforma;
-
-        return coincideTitulo &&
-               coincidePlataforma;
+    plataformas.forEach(p => {
+        const opt = document.createElement("option");
+        opt.value = p;
+        opt.textContent = p;
+        select.appendChild(opt);
     });
-
-    renderizar(resultado);
 }
 
-document
-.getElementById("search")
-.addEventListener("input", filtrar);
+/* =========================
+   EVENTOS
+========================= */
 
-document
-.getElementById("platformFilter")
-.addEventListener("change", filtrar);
+document.getElementById("search").addEventListener("input", render);
+document.getElementById("platformFilter").addEventListener("change", render);
 
-cargarDatos();
+init();
