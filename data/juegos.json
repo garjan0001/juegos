@@ -357,14 +357,6 @@
     "portada": "images/ps2/Ratatouille.jpg"
   },
   {
-    "id": 136,
-    "titulo": "Play_station_move",
-    "plataforma": "PlayStation 2",
-    "prestadoA": "",
-    "region": "PAL ESP",
-    "portada": "images/ps2/Play_station_move.jpg"
-  },
-  {
     "id": 137,
     "titulo": "Ratchet & Clark El Tamaño importa",
     "plataforma": "PlayStation 2",
@@ -836,7 +828,14 @@
     "region": "PAL ESP",
     "portada": "images/ps3/uncharted3.jpg"
   },
-
+  {
+    "id": 328,
+    "titulo": "Play_station_move",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/Play_station_move.jpg"
+  },
 
 
 
