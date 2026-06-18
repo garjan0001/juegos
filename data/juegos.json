@@ -588,8 +588,48 @@
   },
 
 
+  
+  {
+    "id": 201,
+    "titulo": "Call of Duty Modern Warface",
+    "plataforma": "XBOX 360",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/call_of_duty_modern.jpg"
+  },
+  {
+    "id": 202,
+    "titulo": "Gears of War",
+    "plataforma": "XBOX 360",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/gear_of_war.jpg"
+  },
+  {
+    "id": 203,
+    "titulo": "Kinect Adeventures",
+    "plataforma": "XBOX 360",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Kinect_Adeventures.jpg"
+  },
 
- 
+
+
+  {
+    "id": 301,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/XXXXXX.jpg"
+  },
+
+
+
+
+  
+  
   {
     "id": 30000,
     "titulo": "Shenmue",
