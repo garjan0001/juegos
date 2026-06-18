@@ -72,8 +72,526 @@
     "portada": "images/ps1/Xmen_2.jpg"
   },
 
+  
   {
-    "id": 30,
+    "id": 101,
+    "titulo": "187 Ride or die",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/187_ride_or_die.jpg"
+  },
+  {
+    "id": 102,
+    "titulo": "18 Eigteen wheeler",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/18_ Eigteen_wheeler.jpg"
+  },
+  {
+    "id": 103,
+    "titulo": "CAll of Duty World at War",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/CAll_of_Duty_World_at_War.jpg"
+  },
+  {
+    "id": 104,
+    "titulo": "Crash Bandicoot wrath cortex",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Crash_Bandicoot_wrath_cortex.jpg"
+  },
+  {
+    "id": 105,
+    "titulo": "Crash guerra al coco maniaco",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Crash_guerra_coco_maniaco.jpg"
+  },
+
+  {
+    "id": 106,
+    "titulo": "Crazy taxi",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Crazy_taxi.jpg"
+  },
+  {
+    "id": 107,
+    "titulo": "Dead or Alive 2",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/DOA2.jpg"
+  },
+  {
+    "id": 108,
+    "titulo": "Devil May Cry",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Devil_May_cry.jpg"
+  },
+  {
+    "id": 109,
+    "titulo": "Dogs life",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Dogs_life.jpg"
+  },
+  {
+    "id": 110,
+    "titulo": "Evil Twin",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Evil_Twin.jpg"
+  },
+  {
+    "id": 111,
+    "titulo": "Extermination",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Extermination.jpg"
+  },
+  {
+    "id": 112,
+    "titulo": "Eye toy Play",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Eye_toy_Play.jpg"
+  },
+  {
+    "id": 113,
+    "titulo": "FIFA 11",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/FIFA11.jpg"
+  },
+  {
+    "id": 114,
+    "titulo": "Final Fantasy X",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Final_Fantasy_X.jpg"
+  },
+  {
+    "id": 115,
+    "titulo": "Final Fantasy X-2",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Final_Fantasy_X2.jpg"
+  },
+  {
+    "id": 116,
+    "titulo": "Final Fantasy XII",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Final_Fantasy_XII.jpg"
+  },
+  {
+    "id": 117,
+    "titulo": "GRU Mi villano favorito",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/GRU_villano_favorito.jpg"
+  },
+  {
+    "id": 118,
+    "titulo": "Gran Turismo 3",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/GT3.jpg"
+  },
+  {
+    "id": 119,
+    "titulo": "Gran Turismo 4",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/GT4.jpg"
+  },
+  {
+    "id": 120,
+    "titulo": "GTA San Andreas",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/GTA.jpg"
+  },
+  {
+    "id": 121,
+    "titulo": "Kingdom hearts",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Kingdom_hearts.jpg"
+  },
+  {
+    "id": 122,
+    "titulo": "LEGO STAR WARS",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/LEGO_STAR_WARS.jpg"
+  },
+  {
+    "id": 123,
+    "titulo": "La leyenda de Spyro",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/La_leyenda_de Spyro.jpg"
+  },
+  {
+    "id": 124,
+    "titulo": "Lego Indiana",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Lego_Indiana.jpg"
+  },
+  {
+    "id": 125,
+    "titulo": "Lego Star Wars 2",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Lego_Star_Wars2.jpg"
+  },
+  {
+    "id": 126,
+    "titulo": "Locos por el surf",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Locos_por_surf.jpg"
+  },
+  {
+    "id": 127,
+    "titulo": "Los Sims",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Los_Sims.jpg"
+  },
+  {
+    "id": 128,
+    "titulo": "MR_GOLF",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/MR_GOLF.jpg"
+  },
+  {
+    "id": 129,
+    "titulo": "Monstruos S.A.",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Monstruos_SA.jpg"
+  },
+  {
+    "id": 130,
+    "titulo": "Onimusha",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Onimusha.jpg"
+  },
+  {
+    "id": 131,
+    "titulo": "Pro Evolution Soccer 2008",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/PES2008.jpg"
+  },
+    {
+    "id": 132,
+    "titulo": "Pro rally 2002.",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Pro_rally_2002..jpg"
+  },
+  {
+    "id": 133,
+    "titulo": "XXXXXXXXXXXX",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/XXXXXX.jpg"
+  },
+  {
+    "id": 134,
+    "titulo": "Rayman raving rabbids",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/RAyman_raving_rabbids.jpg"
+  },
+  {
+    "id": 135,
+    "titulo": "Ratatouille",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Ratatouille.jpg"
+  },
+  {
+    "id": 136,
+    "titulo": "XXXXXXXXXXXX",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/XXXXXX.jpg"
+  },
+  {
+    "id": 137,
+    "titulo": "Ratchet & Clark El Tamaño importa",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Ratchet_&_Clark_Tamaño_importa.jpg"
+  },
+  {
+    "id": 138,
+    "titulo": "Rayman M",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Rayman_M.jpg"
+  },
+  {
+    "id": 139,
+    "titulo": "Resident Evil 4",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Resident_Evil4.jpg"
+  },
+  {
+    "id": 140,
+    "titulo": "Resident Evil code Veronica",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Resident_Evil_code_Veronica.jpg"
+  },
+  {
+    "id": 141,
+    "titulo": "SXR",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/SXR.jpg"
+  },
+  {
+    "id": 142,
+    "titulo": "El Señor de los anillos Las dos torres",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Señor_anillos_dos_torres.jpg"
+  },
+  {
+    "id": 143,
+    "titulo": "Snooker 2002",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Snooker_2002.jpg"
+  },
+  {
+    "id": 144,
+    "titulo": "Socom",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Socom.jpg"
+  },
+  {
+    "id": 145,
+    "titulo": "Socom 2",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Socom2.jpg"
+  },
+  {
+    "id": 146,
+    "titulo": "Socom 3",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Socom3.jpg"
+  },
+  {
+    "id": 147,
+    "titulo": "Socom Combined Assault",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Socom_Combined_Assault.jpg"
+  },
+  {
+    "id": 148,
+    "titulo": "Sonic raiders",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Sonic_raiders.jpg"
+  },
+  {
+    "id": 149,
+    "titulo": "Speed_racer",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Speed_racer.jpg"
+  },
+  {
+    "id": 150,
+    "titulo": "Star Wars Battlefront",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Star_Wars_Battlefront.jpg"
+  },
+  {
+    "id": 151,
+    "titulo": "Star Wars Battlefront 2",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Star_Wars_Battlefront2.jpg"
+  },
+  {
+    "id": 152,
+    "titulo": "Star_Wars_episodio_3",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Star_Wars_episodio_3.jpg"
+  },
+  {
+    "id": 153,
+    "titulo": "Super Bust a Move",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Super_Bust_a_Move.jpg"
+  },
+  {
+    "id": 154,
+    "titulo": "Tarzan",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Tarzan.jpg"
+  },
+  {
+    "id": 155,
+    "titulo": "Tekken4",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Tekken4.jpg"
+  },
+  {
+    "id": 156,
+    "titulo": "Tekken_TAG",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Tekken_TAG.jpg"
+  },
+  {
+    "id": 157,
+    "titulo": "The Bouncer",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/The_Bouncer.jpg"
+  },
+  {
+    "id": 158,
+    "titulo": "Think_fast",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Think_fast.jpg"
+  },
+  {
+    "id": 159,
+    "titulo": "Toca racer driver 2",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Toca_racer_driver_2.jpg"
+  },
+  {
+    "id": 160,
+    "titulo": "Tomb Raider el Angel de la oscuridad",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/Tomb_Raide_Angel_oscuridad.jpg"
+  },
+  {
+    "id": 161,
+    "titulo": "homerun",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/homerun.jpg"
+  },
+  {
+    "id": 162,
+    "titulo": "juiced 2",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/juiced2.jpg"
+  },
+  {
+    "id": 163,
+    "titulo": "los_sims",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/los_sims.jpg"
+  },
+  {
+    "id": 164,
+    "titulo": "lotus challenge",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/lotus_challenge.jpg"
+  },
+
+
+
+ 
+  {
+    "id": 30000,
     "titulo": "Shenmue",
     "plataforma": "Dreamcast",
     "prestadoA": "",
