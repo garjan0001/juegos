@@ -72,6 +72,8 @@
     "portada": "images/ps1/Xmen_2.jpg"
   },
 
+
+
   
   {
     "id": 101,
@@ -587,6 +589,7 @@
     "portada": "images/ps2/lotus_challenge.jpg"
   },
 
+  
 
   
   {
@@ -615,9 +618,218 @@
   },
 
 
+  
 
   {
     "id": 301,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 302,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 303,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 304,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 305,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 306,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 307,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 308,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 309,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 310,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 311,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 312,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 313,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 314,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+   {
+    "id": 315,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  }, 
+  {
+    "id": 316,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 317,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 318,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 319,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 320,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 321,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 322,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 323,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 324,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 325,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 326,
+    "titulo": "XXXXXXXXXX",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/XXXXXX.jpg"
+  },
+  {
+    "id": 327,
     "titulo": "XXXXXXXXXX",
     "plataforma": "PlayStation 3",
     "prestadoA": "",
@@ -628,7 +840,6 @@
 
 
 
-  
   
   {
     "id": 30000,
