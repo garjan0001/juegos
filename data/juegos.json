@@ -1,24 +1,24 @@
 [
   {
-    "titulo": "Metal Gear Solid",
+    "titulo": "Gran Turismo",
     "plataforma": "PlayStation",
     "generacion": "5ª Generación",
     "region": "PAL ESP",
-    "portada": "covers/ps1/metal-gear-solid.jpg"
+    "portada": "images/ps1/Gran-Turismo.jpg"
   },
   {
-    "titulo": "Resident Evil 2",
+    "titulo": "NHL 2000",
     "plataforma": "PlayStation",
     "generacion": "5ª Generación",
     "region": "PAL ESP",
-    "portada": "covers/ps1/resident-evil-2.jpg"
+    "portada": "images/ps1/NHL_2000.jpg"
   },
     {
-    "titulo": "Resident Evil 2 Remake",
-    "plataforma": "PlayStation 4",
-    "generacion": "8ª Generación",
+    "titulo": "XMEN 2 Mutant Academy",
+    "plataforma": "PlayStation",
+    "generacion": "5ª Generación",
     "region": "PAL ESP",
-    "portada": "covers/ps4/resident-evil-2-remake.jpg"
+    "portada": "images/ps1/xmen2.jpg"
   },
   {
     "titulo": "Shenmue",
