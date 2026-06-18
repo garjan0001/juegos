@@ -286,11 +286,11 @@
   },
   {
     "id": 127,
-    "titulo": "Los Sims",
+    "titulo": "motoGP",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps2/los_sims.jpg"
+    "portada": "images/ps2/motoGP.jpg"
   },
   {
     "id": 128,
@@ -334,11 +334,11 @@
   },
   {
     "id": 133,
-    "titulo": "XXXXXXXXXXXX",
+    "titulo": "motoGP 4",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps2/XXXXXX.jpg"
+    "portada": "images/ps2/motoGP4.jpg"
   },
   {
     "id": 134,
@@ -355,14 +355,6 @@
     "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps2/Ratatouille.jpg"
-  },
-  {
-    "id": 136,
-    "titulo": "XXXXXXXXXXXX",
-    "plataforma": "PlayStation 2",
-    "prestadoA": "",
-    "region": "PAL ESP",
-    "portada": "images/ps2/XXXXXX.jpg"
   },
   {
     "id": 137,
