@@ -3,7 +3,7 @@
     "id": 1,
     "titulo": "Gran Turismo",
     "plataforma": "PlayStation",
-    "generacion": "5ª Generación",
+    "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps1/Gran-Turismo.jpg"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "titulo": "NHL 2000",
     "plataforma": "PlayStation",
-    "generacion": "5ª Generación",
+    "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps1/NHL_2000.jpg"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "titulo": "Parasite Eve 2",
     "plataforma": "PlayStation",
-    "generacion": "5ª Generación",
+    "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps1/Parasite_Eve_2.jpg"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "titulo": "Time Crisis",
     "plataforma": "PlayStation",
-    "generacion": "5ª Generación",
+    "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps1/Time_Crisis.jpg"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "titulo": "Hescules Disney",
     "plataforma": "PlayStation",
-    "generacion": "5ª Generación",
+    "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps1/Hescules_Disney.jpg"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "titulo": "Time Crisis Project Titan",
     "plataforma": "PlayStation",
-    "generacion": "5ª Generación",
+    "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps1/Time_Crisis_Project_Titan.jpg"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "titulo": "Spyro 2",
     "plataforma": "PlayStation",
-    "generacion": "5ª Generación",
+    "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps1/Spyro_2.jpg"
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "titulo": "Point Bank",
     "plataforma": "PlayStation",
-    "generacion": "5ª Generación",
+    "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps1/Point_Bank.jpg"
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "titulo": "Xmen 2 Mutant Academy",
     "plataforma": "PlayStation",
-    "generacion": "5ª Generación",
+    "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps1/Xmen_2.jpg"
   },
@@ -76,7 +76,7 @@
     "id": 30,
     "titulo": "Shenmue",
     "plataforma": "Dreamcast",
-    "generacion": "6ª Generación",
+    "prestadoA": "",
     "region": "PAL",
     "portada": "images/dreamcast/shenmue.jpg"
   }
