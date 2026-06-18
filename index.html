@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mi Colección de Juegos</title>
 
-<link rel="stylesheet" href="css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Colección de Videojuegos</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<header>
+    <header>
 
-<h1>🎮 Mi Colección de Videojuegos</h1>
+        <h1>🎮 Mi Colección de Videojuegos</h1>
 
-<div class="controls">
+        <div class="controls">
 
-<input type="text" id="search" placeholder="Buscar juego...">
+            <input
+                type="text"
+                id="search"
+                placeholder="Buscar juego...">
 
-<select id="platformFilter">
-<option value="">Todas las plataformas</option>
-</select>
+            <select id="platformFilter">
+                <option value="">Todas las plataformas</option>
+            </select>
 
-</div>
+            <select id="sortFilter">
+                <option value="az">Nombre A-Z</option>
+                <option value="za">Nombre Z-A</option>
+                <option value="available">Solo disponibles</option>
+                <option value="loaned">Solo prestados</option>
+            </select>
 
-<p id="stats"></p>
+        </div>
 
-</header>
+        <p id="stats"></p>
 
-<main>
+    </header>
 
-<div id="gamesContainer" class="games-grid"></div>
+    <main>
 
-</main>
+        <div
+            id="gamesContainer"
+            class="games-grid">
+        </div>
 
-<script src="js/app.js"></script>
+    </main>
+
+    <script src="js/app.js"></script>
 
 </body>
+
 </html>
