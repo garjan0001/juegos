@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "titulo": "Metal Gear Solid",
+    "titulo": "Gran Turismo",
     "plataforma": "PlayStation",
     "generacion": "5ª Generación",
     "region": "PAL ESP",
-    "portada": "images/ps1/metal-gear-solid.jpg"
+    "portada": "images/ps1/Gran-Turismo.jpg"
   },
   {
     "id": 2,
