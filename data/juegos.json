@@ -842,11 +842,11 @@
   
   {
     "id": 401,
-    "titulo": "Starklink",
+    "titulo": "BloodStained",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps4/Starklink.jpg"
+    "portada": "images/ps4/BloodStained.JPEG"
   },
 
   {
@@ -859,6 +859,14 @@
   },
   {
     "id": 403,
+    "titulo": "Ghost of Tsushima",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Ghost_of_tsushima.JPEG"
+  },
+  {
+    "id": 404,
     "titulo": "Hades",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
@@ -866,7 +874,31 @@
     "portada": "images/ps4/Hades.JPEG"
   },
   {
-    "id": 404,
+    "id": 405,
+    "titulo": "Star Wars Battlefront",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Star_wars_battlefront.JPEG"
+  },
+  {
+    "id": 406,
+    "titulo": "Starklink",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Starklink.jpg"
+  },
+  {
+    "id": 407,
+    "titulo": "cyberpunk 2077",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/cyberpunk2077.JPEG"
+  },
+  {
+    "id": 408,
     "titulo": "dredge",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
@@ -874,15 +906,23 @@
     "portada": "images/ps4/dredge.JPEG"
   },
   {
-    "id": 405,
-    "titulo": "GhosT Recon Breakpoint",
+    "id": 409,
+    "titulo": "driveclub",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/driveclub.JPEG"
+  },
+  {
+    "id": 410,
+    "titulo": "ghost recon breakpoint",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps4/ghos_recon_breakpoint.JPEG"
   },
   {
-    "id": 406,
+    "id": 411,
     "titulo": "Gran Turismo 7",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
@@ -890,84 +930,44 @@
     "portada": "images/ps4/gt7.JPEG"
   },
   {
-    "id": 407,
-    "titulo": "Guardianes de la Galaxia",
+    "id": 412,
+    "titulo": "Gran Turismo Sport",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/gt_sport.JPEG"
+  },
+  {
+    "id": 413,
+    "titulo": "guardianes de la galaxia",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps4/guardianes_galaxia.JPEG"
   },
   {
-    "id": 408,
-    "titulo": "Metal Gear Survive",
+    "id": 414,
+    "titulo": "hollow knight",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/hollow_knight.JPEG"
+  },
+  {
+    "id": 415,
+    "titulo": "jedi fallen order",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/jedi_fallen_order.JPEG"
+  },
+  {
+    "id": 416,
+    "titulo": "metal gear survive",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps4/metal_gear_survive.JPEG"
-  },
-  {
-    "id": 409,
-    "titulo": "Prey",
-    "plataforma": "PlayStation 4",
-    "prestadoA": "",
-    "region": "PAL ESP",
-    "portada": "images/ps4/prey.JPEG"
-  },
-  {
-    "id": 410,
-    "titulo": "Resident Evil 2 Remake",
-    "plataforma": "PlayStation 4",
-    "prestadoA": "",
-    "region": "PAL ESP",
-    "portada": "images/ps4/resident_evil2_remake.JPEG"
-  },
-  {
-    "id": 411,
-    "titulo": "Resident Evil 3 Remake",
-    "plataforma": "PlayStation 4",
-    "prestadoA": "",
-    "region": "PAL ESP",
-    "portada": "images/ps4/resident_evil3_remake.JPEG"
-  },
-  {
-    "id": 412,
-    "titulo": "Resident Evil 5",
-    "plataforma": "PlayStation 4",
-    "prestadoA": "",
-    "region": "PAL ESP",
-    "portada": "images/ps4/resident_evil5.JPEG"
-  },
-  {
-    "id": 413,
-    "titulo": "Resident Evil 6",
-    "plataforma": "PlayStation 4",
-    "prestadoA": "",
-    "region": "PAL ESP",
-    "portada": "images/ps4/resident_evil6.JPEG"
-  },
-  {
-    "id": 414,
-    "titulo": "Resident Evil Village",
-    "plataforma": "PlayStation 4",
-    "prestadoA": "",
-    "region": "PAL ESP",
-    "portada": "images/ps4/resident_evil_village.JPEG"
-  },
-  {
-    "id": 415,
-    "titulo": "Resident Evil Origins Collection",
-    "plataforma": "PlayStation 4",
-    "prestadoA": "",
-    "region": "PAL ESP",
-    "portada": "images/ps4/resident_evilorigins_collection.JPEG"
-  },
-  {
-    "id": 416,
-    "titulo": "Uncharted El legado perdido",
-    "plataforma": "PlayStation 4",
-    "prestadoA": "",
-    "region": "PAL ESP",
-    "portada": "images/ps4/uncharted_legado_perdido.JPEG"
   },
   {
     "id": 417,
@@ -1089,10 +1089,155 @@
     "region": "PAL ESP",
     "portada": "images/ps4/soulcalibur6.JPEG"
   },
+  {
+    "id": 432,
+    "titulo": "Metal Gear Survive",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/metal_gear_survive.JPEG"
+  },
+  {
+    "id": 433,
+    "titulo": "MotoGp17",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/motoGp17.JPEG"
+  },
+  {
+    "id": 434,
+    "titulo": "Nier Automata",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/nier_automata.JPEG"
+  },
+  {
+    "id": 435,
+    "titulo": "Nier Replicant",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/nier_replicant.JPEG"
+  },
+  {
+    "id": 436,
+    "titulo": "No Mans Sky",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/no_mans_sky.JPEG"
+  },
+  {
+    "id": 437,
+    "titulo": "Prey",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/prey.JPEG"
+  },
+  {
+    "id": 438,
+    "titulo": "Resident Evil 2 Remake",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/resident_evil2_remake.JPEG"
+  },
+  {
+    "id": 439,
+    "titulo": "Resident Evil 3 remake",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/resident_evil3_remake.JPEG"
+  },
+  {
+    "id": 440,
+    "titulo": "Resident Evil 5",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/resident_evil5.JPEG"
+  },
+  {
+    "id": 441,
+    "titulo": "Resident Evil 6",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/resident_evil6.JPEG"
+  },
+  {
+    "id": 442,
+    "titulo": "Resident Evil Village",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/resident_evil_village.JPEG"
+  },
+  {
+    "id": 443,
+    "titulo": "Resident Evil Origins Collection",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/resident_evilorigins_collection.JPEG"
+  },
+  {
+    "id": 444,
+    "titulo": "Sifu",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/sifu.JPEG"
+  },
+  {
+    "id": 445,
+    "titulo": "Tormented Souls",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/tormented souls.JPEG"
+  },
+  {
+    "id": 446,
+    "titulo": "Uncharted El legado perdido",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/uncharted_legado_perdido.JPEG"
+  },
+  {
+    "id": 447,
+    "titulo": "Unmetal",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/unmetal.JPEG"
+  },
+  {
+    "id": 448,
+    "titulo": "The Witcher 3",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/witcher3.JPEG"
+  },
+  {
+    "id": 449,
+    "titulo": "Yakuza like a dragon",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/yakuza_like_a_dragon.JPEG"
+  },
 
 
 
   
+
   
   {
     "id": 30000,
