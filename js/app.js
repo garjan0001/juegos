@@ -1,93 +1,268 @@
+/* =========================
+   VARIABLES GLOBALES
+========================= */
+
 let juegos = [];
 
 /* =========================
-   CARGA DE DATOS
+   CARGAR DATOS
 ========================= */
 
 async function cargarDatos() {
 
-    const response = await fetch(
-        "data/juegos.json?v=" + Date.now()
-    );
+    try {
 
-    juegos = await response.json();
+        const response = await fetch(
+            `data/juegos.json?v=${Date.now()}`
+        );
 
-    cargarPlataformas();
-    renderizar();
+        if (!response.ok) {
+            throw new Error(
+                `Error HTTP ${response.status}`
+            );
+        }
+
+        juegos = await response.json();
+
+        cargarPlataformas();
+        renderizar();
+
+    } catch (error) {
+
+        console.error(
+            "Error cargando juegos:",
+            error
+        );
+
+        document.getElementById(
+            "gamesContainer"
+        ).innerHTML = `
+            <div style="padding:20px;">
+                Error cargando la colección.
+            </div>
+        `;
+    }
 }
 
 /* =========================
-   PLATAFORMAS
+   CARGAR PLATAFORMAS
 ========================= */
 
 function cargarPlataformas() {
 
-    const select = document.getElementById("platformFilter");
+    const select =
+        document.getElementById(
+            "platformFilter"
+        );
 
-    select.innerHTML = '<option value="">Todas las plataformas</option>';
+    select.innerHTML =
+        '<option value="">Todas las plataformas</option>';
 
-    const plataformas = [...new Set(juegos.map(j => j.plataforma))];
+    const plataformas =
+        [...new Set(
+            juegos.map(
+                j => j.plataforma
+            )
+        )];
 
-    plataformas.sort().forEach(p => {
+    plataformas
+        .sort((a, b) =>
+            a.localeCompare(b, 'es')
+        )
+        .forEach(plataforma => {
 
-        const option = document.createElement("option");
+            const option =
+                document.createElement(
+                    "option"
+                );
 
-        option.value = p;
-        option.textContent = p;
+            option.value =
+                plataforma;
 
-        select.appendChild(option);
-    });
+            option.textContent =
+                plataforma;
+
+            select.appendChild(
+                option
+            );
+        });
 }
 
 /* =========================
-   FILTRO + RENDER
+   OBTENER LISTA FILTRADA
+========================= */
+
+function obtenerListaFiltrada() {
+
+    const texto =
+        document
+            .getElementById("search")
+            .value
+            .toLowerCase()
+            .trim();
+
+    const plataforma =
+        document
+            .getElementById(
+                "platformFilter"
+            )
+            .value;
+
+    const orden =
+        document
+            .getElementById(
+                "sortFilter"
+            )
+            .value;
+
+    let lista =
+        juegos.filter(juego => {
+
+            const coincideTexto =
+                juego.titulo
+                    .toLowerCase()
+                    .includes(texto);
+
+            const coincidePlataforma =
+                !plataforma ||
+                juego.plataforma ===
+                    plataforma;
+
+            return (
+                coincideTexto &&
+                coincidePlataforma
+            );
+        });
+
+    /* =====================
+       DISPONIBLES
+    ===================== */
+
+    if (orden === "available") {
+
+        lista = lista.filter(
+            j => !j.prestadoA
+        );
+    }
+
+    /* =====================
+       PRESTADOS
+    ===================== */
+
+    if (orden === "loaned") {
+
+        lista = lista.filter(
+            j => j.prestadoA
+        );
+    }
+
+    /* =====================
+       ORDEN A-Z
+    ===================== */
+
+    if (orden === "az") {
+
+        lista.sort((a, b) =>
+            a.titulo.localeCompare(
+                b.titulo,
+                "es",
+                {
+                    sensitivity:
+                        "base"
+                }
+            )
+        );
+    }
+
+    /* =====================
+       ORDEN Z-A
+    ===================== */
+
+    if (orden === "za") {
+
+        lista.sort((a, b) =>
+            b.titulo.localeCompare(
+                a.titulo,
+                "es",
+                {
+                    sensitivity:
+                        "base"
+                }
+            )
+        );
+    }
+
+    return lista;
+}
+
+/* =========================
+   RENDERIZAR
 ========================= */
 
 function renderizar() {
 
-    const texto = document.getElementById("search").value.toLowerCase();
-    const plataforma = document.getElementById("platformFilter").value;
+    const lista =
+        obtenerListaFiltrada();
 
-    const lista = juegos.filter(j => {
-
-        const matchText = j.titulo.toLowerCase().includes(texto);
-        const matchPlatform = !plataforma || j.plataforma === plataforma;
-
-        return matchText && matchPlatform;
-    });
-
-    const container = document.getElementById("gamesContainer");
+    const container =
+        document.getElementById(
+            "gamesContainer"
+        );
 
     container.innerHTML = "";
 
-    lista.forEach(j => {
+    lista.forEach(juego => {
+
+        const estadoPrestamo =
+            juego.prestadoA
+                ? `
+                <span class="loaned">
+                    🔴 Prestado a ${juego.prestadoA}
+                </span>
+                `
+                : `
+                <span class="available">
+                    🟢 Disponible
+                </span>
+                `;
 
         container.innerHTML += `
-        <div class="game-card">
+            <div class="game-card">
 
-            <img src="${j.portada}" alt="${j.titulo}"
-                 onerror="this.src='images/no-image.jpg'">
+                <img
+                    src="${juego.portada}"
+                    alt="${juego.titulo}"
+                    loading="lazy"
+                    onerror="this.src='images/no-image.jpg'"
+                >
 
-            <div class="game-info">
+                <div class="game-info">
 
-                <div class="game-title">${j.titulo}</div>
-                <div class="platform">${j.plataforma}</div>
-                <div>${j.region}</div>
+                    <div class="game-title">
+                        ${juego.titulo}
+                    </div>
 
-                <div class="prestamo">
-                    ${
-                        j.prestadoA
-                        ? `<span class="loaned">🔴 Prestado a ${j.prestadoA}</span>`
-                        : `<span class="available">🟢 Disponible</span>`
-                    }
+                    <div class="platform">
+                        ${juego.plataforma}
+                    </div>
+
+                    <div class="region">
+                        ${juego.region}
+                    </div>
+
+                    <div class="prestamo">
+                        ${estadoPrestamo}
+                    </div>
+
                 </div>
 
             </div>
-        </div>
         `;
     });
 
-    document.getElementById("stats").textContent =
+    document.getElementById(
+        "stats"
+    ).textContent =
         `Total juegos: ${lista.length}`;
 }
 
@@ -95,7 +270,33 @@ function renderizar() {
    EVENTOS
 ========================= */
 
-document.getElementById("search").addEventListener("input", renderizar);
-document.getElementById("platformFilter").addEventListener("change", renderizar);
+document
+    .getElementById("search")
+    .addEventListener(
+        "input",
+        renderizar
+    );
+
+document
+    .getElementById(
+        "platformFilter"
+    )
+    .addEventListener(
+        "change",
+        renderizar
+    );
+
+document
+    .getElementById(
+        "sortFilter"
+    )
+    .addEventListener(
+        "change",
+        renderizar
+    );
+
+/* =========================
+   INICIO
+========================= */
 
 cargarDatos();
