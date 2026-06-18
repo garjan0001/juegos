@@ -1,46 +1,81 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Colección de Juegos</title>
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Colección de Juegos</title>
+
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <header>
-    <h1>🎮 Mi Colección de Videojuegos</h1>
 
-    <div class="controls">
+<h1>🎮 Mi Colección de Videojuegos</h1>
 
-        <input type="text" id="search" placeholder="Buscar juego...">
+<div class="filtros">
 
-        <select id="platformFilter">
-            <option value="">Todas las plataformas</option>
-        </select>
+<input
+type="text"
+id="search"
+placeholder="Buscar juego...">
 
-    </div>
+<select id="platformFilter">
+<option value="">Todas las plataformas</option>
+</select>
 
-    <p id="stats"></p>
+</div>
+
+<div id="stats"></div>
+
 </header>
 
-<!-- FORMULARIO -->
 <section class="form-section">
-    <h2>Añadir juego</h2>
 
-    <form id="gameForm">
-        <input id="title" placeholder="Título" required>
-        <input id="platform" placeholder="Plataforma (PS1, PS2...)" required>
-        <input id="generation" placeholder="Generación" required>
-        <input id="region" placeholder="Región (PAL, NTSC)" required>
+<h2>Añadir Juego</h2>
 
-        <button type="submit">➕ Añadir</button>
-    </form>
+<form id="gameForm">
+
+<input
+id="title"
+placeholder="Título"
+required>
+
+<input
+id="platform"
+placeholder="Plataforma"
+required>
+
+<input
+id="generation"
+placeholder="Generación"
+required>
+
+<input
+id="region"
+placeholder="PAL / NTSC / JAP"
+required>
+
+<input
+id="image"
+placeholder="Ruta imagen (ej: images/ps1/metal-gear-solid.jpg)"
+required>
+
+<button type="submit">
+Añadir
+</button>
+
+</form>
+
 </section>
 
 <main>
-    <div id="gamesContainer" class="grid"></div>
+
+<div id="gamesContainer" class="games-grid"></div>
+
 </main>
 
 <script src="js/app.js"></script>
