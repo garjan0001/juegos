@@ -915,7 +915,7 @@
   },
   {
     "id": 410,
-    "titulo": "ghost recon breakpoint",
+    "titulo": "Ghost Recon Breakpoint",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -939,7 +939,7 @@
   },
   {
     "id": 413,
-    "titulo": "guardianes de la galaxia",
+    "titulo": "Guardianes de la galaxia",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -947,7 +947,7 @@
   },
   {
     "id": 414,
-    "titulo": "hollow knight",
+    "titulo": "Hollow Knight",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -955,19 +955,11 @@
   },
   {
     "id": 415,
-    "titulo": "jedi fallen order",
+    "titulo": "Jedi Fallen order",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps4/jedi_fallen_order.JPEG"
-  },
-  {
-    "id": 416,
-    "titulo": "metal gear survive",
-    "plataforma": "PlayStation 4",
-    "prestadoA": "",
-    "region": "PAL ESP",
-    "portada": "images/ps4/metal_gear_survive.JPEG"
   },
   {
     "id": 417,
