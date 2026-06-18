@@ -953,7 +953,142 @@
     "region": "PAL ESP",
     "portada": "images/ps4/resident_evil_village.JPEG"
   },
-
+  {
+    "id": 415,
+    "titulo": "Resident Evil Origins Collection",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/resident_evilorigins_collection.JPEG"
+  },
+  {
+    "id": 416,
+    "titulo": "Uncharted El legado perdido",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/uncharted_legado_perdido.JPEG"
+  },
+  {
+    "id": 417,
+    "titulo": "The Evil Withim",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/The_Evil_Withim.JPEG"
+  },
+  {
+    "id": 418,
+    "titulo": "The Evil Withim 2",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/The_Evil_Withim2.JPEG"
+  },
+  {
+    "id": 419,
+    "titulo": "The Last of Us",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "Jose H Vane",
+    "region": "PAL ESP",
+    "portada": "images/ps4/The_last_of_us.JPEG"
+  },
+  {
+    "id": 420,
+    "titulo": "The Last of Us 2",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "Jose H Vane",
+    "region": "PAL ESP",
+    "portada": "images/ps4/The_last_of_us2.JPEG"
+  },
+  {
+    "id": 421,
+    "titulo": "Lego Marvel",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/lego_marvel.JPEG"
+  },
+  {
+    "id": 422,
+    "titulo": "Uncharted 4",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/uncharted4.JPEG"
+  },
+  {
+    "id": 423,
+    "titulo": "Red Dead Rendemtion",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "Jose H Vane",
+    "region": "PAL ESP",
+    "portada": "images/ps4/red_dead.JPEG"
+  },
+  {
+    "id": 424,
+    "titulo": "God of War",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "Jose H Vane",
+    "region": "PAL ESP",
+    "portada": "images/ps4/god_war.JPEG"
+  },
+  {
+    "id": 425,
+    "titulo": "God of War Ragnarok",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "Jose H Vane",
+    "region": "PAL ESP",
+    "portada": "images/ps4/god_war_ragna.JPEG"
+  },
+  {
+    "id": 426,
+    "titulo": "Titan Fall 2",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "Jose H Vane",
+    "region": "PAL ESP",
+    "portada": "images/ps4/titanfall2.JPEG"
+  },
+  {
+    "id": 427,
+    "titulo": "Final Fantasy XV",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "Jose H Vane",
+    "region": "PAL ESP",
+    "portada": "images/ps4/ffxv.JPEG"
+  },
+  {
+    "id": 428,
+    "titulo": "NBA 2k15",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "Jose H Vane",
+    "region": "PAL ESP",
+    "portada": "images/ps4/NBA2k15.JPEG"
+  },
+  {
+    "id": 429,
+    "titulo": "SingStar Megahits",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "Jose H Vane",
+    "region": "PAL ESP",
+    "portada": "images/ps4/singstarmega.JPEG"
+  },
+  {
+    "id": 430,
+    "titulo": "Spyro Remake",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "Jose H Vane",
+    "region": "PAL ESP",
+    "portada": "images/ps4/spyroremake.JPEG"
+  },
+  {
+    "id": 431,
+    "titulo": "Soul Calibur VI",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "Jose H Vane",
+    "region": "PAL ESP",
+    "portada": "images/ps4/soulcalibur6.JPEG"
+  },
 
 
 
