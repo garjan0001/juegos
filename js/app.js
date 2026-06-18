@@ -1,128 +1,89 @@
 let juegos = [];
 
 /* =========================
-   CARGAR DATOS
+   CARGA DE DATOS
 ========================= */
 
 async function cargarDatos() {
 
-    try {
+    const response = await fetch(
+        "data/juegos.json?v=" + Date.now()
+    );
 
-        const response = await fetch(
-            `data/juegos.json?v=${Date.now()}`
-        );
+    juegos = await response.json();
 
-        juegos = await response.json();
-
-        cargarPlataformas();
-        renderizar();
-
-    } catch (error) {
-
-        console.error("Error cargando juegos:", error);
-
-        document.getElementById("gamesContainer").innerHTML =
-            "<p>Error cargando la colección.</p>";
-    }
+    cargarPlataformas();
+    renderizar();
 }
 
 /* =========================
-   CARGAR PLATAFORMAS
+   PLATAFORMAS
 ========================= */
 
 function cargarPlataformas() {
 
-    const select =
-        document.getElementById("platformFilter");
+    const select = document.getElementById("platformFilter");
 
-    select.innerHTML =
-        '<option value="">Todas las plataformas</option>';
+    select.innerHTML = '<option value="">Todas las plataformas</option>';
 
-    const plataformas =
-        [...new Set(juegos.map(j => j.plataforma))];
+    const plataformas = [...new Set(juegos.map(j => j.plataforma))];
 
-    plataformas.sort();
+    plataformas.sort().forEach(p => {
 
-    plataformas.forEach(plataforma => {
+        const option = document.createElement("option");
 
-        const option =
-            document.createElement("option");
-
-        option.value = plataforma;
-        option.textContent = plataforma;
+        option.value = p;
+        option.textContent = p;
 
         select.appendChild(option);
     });
 }
 
 /* =========================
-   FILTRAR Y RENDERIZAR
+   FILTRO + RENDER
 ========================= */
 
 function renderizar() {
 
-    const texto =
-        document.getElementById("search")
-            .value
-            .toLowerCase();
+    const texto = document.getElementById("search").value.toLowerCase();
+    const plataforma = document.getElementById("platformFilter").value;
 
-    const plataforma =
-        document.getElementById("platformFilter")
-            .value;
+    const lista = juegos.filter(j => {
 
-    const lista = juegos.filter(juego => {
+        const matchText = j.titulo.toLowerCase().includes(texto);
+        const matchPlatform = !plataforma || j.plataforma === plataforma;
 
-        const coincideTexto =
-            juego.titulo
-                .toLowerCase()
-                .includes(texto);
-
-        const coincidePlataforma =
-            plataforma === "" ||
-            juego.plataforma === plataforma;
-
-        return coincideTexto &&
-               coincidePlataforma;
+        return matchText && matchPlatform;
     });
 
-    const container =
-        document.getElementById("gamesContainer");
+    const container = document.getElementById("gamesContainer");
 
     container.innerHTML = "";
 
-    lista.forEach(juego => {
+    lista.forEach(j => {
 
         container.innerHTML += `
-            <div class="game-card">
+        <div class="game-card">
 
-                <img
-                    src="${juego.portada}"
-                    alt="${juego.titulo}"
-                    loading="lazy"
-                    onerror="this.src='images/no-image.jpg'"
-                >
+            <img src="${j.portada}" alt="${j.titulo}"
+                 onerror="this.src='images/no-image.jpg'">
 
-                <div class="game-info">
+            <div class="game-info">
 
-                    <div class="game-title">
-                        ${juego.titulo}
-                    </div>
+                <div class="game-title">${j.titulo}</div>
+                <div class="platform">${j.plataforma}</div>
+                <div>${j.region}</div>
 
-                    <div class="platform">
-                        ${juego.plataforma}
-                    </div>
-
-                    <div>
-                        ${juego.generacion}
-                    </div>
-
-                    <div class="region">
-                        ${juego.region}
-                    </div>
-
+                <div class="prestamo">
+                    ${
+                        j.prestadoA
+                        ? `<span class="loaned">🔴 Prestado a ${j.prestadoA}</span>`
+                        : `<span class="available">🟢 Disponible</span>`
+                    }
                 </div>
 
             </div>
+        </div>
         `;
     });
 
@@ -134,16 +95,7 @@ function renderizar() {
    EVENTOS
 ========================= */
 
-document
-    .getElementById("search")
-    .addEventListener("input", renderizar);
-
-document
-    .getElementById("platformFilter")
-    .addEventListener("change", renderizar);
-
-/* =========================
-   INICIO
-========================= */
+document.getElementById("search").addEventListener("input", renderizar);
+document.getElementById("platformFilter").addEventListener("change", renderizar);
 
 cargarDatos();
