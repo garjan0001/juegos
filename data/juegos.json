@@ -849,6 +849,111 @@
     "portada": "images/ps4/Starklink.jpg"
   },
 
+  {
+    "id": 402,
+    "titulo": "F1 2017",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/F1_2017.JPEG"
+  },
+  {
+    "id": 403,
+    "titulo": "Hades",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Hades.JPEG"
+  },
+  {
+    "id": 404,
+    "titulo": "dredge",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/dredge.JPEG"
+  },
+  {
+    "id": 405,
+    "titulo": "GhosT Recon Breakpoint",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/ghos_recon_breakpoint.JPEG"
+  },
+  {
+    "id": 406,
+    "titulo": "Gran Turismo 7",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/gt7.JPEG"
+  },
+  {
+    "id": 407,
+    "titulo": "Guardianes de la Galaxia",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/guardianes_galaxia.JPEG"
+  },
+  {
+    "id": 408,
+    "titulo": "Metal Gear Survive",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/metal_gear_survive.JPEG"
+  },
+  {
+    "id": 409,
+    "titulo": "Prey",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/prey.JPEG"
+  },
+  {
+    "id": 410,
+    "titulo": "Resident Evil 2 Remake",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/resident_evil2_remake.JPEG"
+  },
+  {
+    "id": 411,
+    "titulo": "Resident Evil 3 Remake",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/resident_evil3_remake.JPEG"
+  },
+  {
+    "id": 412,
+    "titulo": "Resident Evil 5",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/resident_evil5.JPEG"
+  },
+  {
+    "id": 413,
+    "titulo": "Resident Evil 6",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/resident_evil6.JPEG"
+  },
+  {
+    "id": 414,
+    "titulo": "Resident Evil Village",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/resident_evil_village.JPEG"
+  },
+
 
 
 
