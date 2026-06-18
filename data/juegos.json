@@ -595,7 +595,7 @@
     "plataforma": "XBOX 360",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps2/call_of_duty_modern.jpg"
+    "portada": "images/xbox360/call_of_duty_modern.jpg"
   },
   {
     "id": 202,
@@ -603,7 +603,7 @@
     "plataforma": "XBOX 360",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps2/gear_of_war.jpg"
+    "portada": "images/xbox360/gear_of_war.jpg"
   },
   {
     "id": 203,
@@ -611,7 +611,7 @@
     "plataforma": "XBOX 360",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps2/Kinect_Adeventures.jpg"
+    "portada": "images/xbox360/Kinect_Adeventures.jpg"
   },
 
 
@@ -622,7 +622,7 @@
     "plataforma": "PlayStation 3",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps2/XXXXXX.jpg"
+    "portada": "images/ps3/XXXXXX.jpg"
   },
 
 
