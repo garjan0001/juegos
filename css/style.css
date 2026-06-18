@@ -1,10 +1,5 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
 body{
+margin:0;
 font-family:Arial, Helvetica, sans-serif;
 background:#111;
 color:white;
@@ -19,46 +14,19 @@ z-index:100;
 }
 
 h1{
-margin-bottom:15px;
+margin-bottom:10px;
 }
 
-.filtros{
+.controls{
 display:flex;
 gap:10px;
 flex-wrap:wrap;
 }
 
-input,
-select{
+input, select{
 padding:10px;
 border:none;
 border-radius:8px;
-}
-
-#stats{
-margin-top:10px;
-color:#ccc;
-}
-
-.form-section{
-padding:20px;
-background:#181818;
-}
-
-form{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:10px;
-}
-
-form button{
-background:#00c853;
-border:none;
-color:white;
-font-weight:bold;
-padding:10px;
-border-radius:8px;
-cursor:pointer;
 }
 
 .games-grid{
@@ -98,13 +66,15 @@ color:#00e676;
 margin-top:5px;
 }
 
-.delete-btn{
-width:100%;
-margin-top:10px;
-padding:8px;
-background:#ff3d3d;
-border:none;
-color:white;
-cursor:pointer;
-border-radius:6px;
+.prestamo{
+margin-top:6px;
+font-weight:bold;
+}
+
+.available{
+color:#00e676;
+}
+
+.loaned{
+color:#ff3d3d;
 }
