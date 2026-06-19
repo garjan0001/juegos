@@ -71,6 +71,102 @@
     "region": "PAL ESP",
     "portada": "images/ps1/Xmen_2.jpg"
   },
+  {
+    "id": 10,
+    "titulo": "Final Fantasy VI",
+    "plataforma": "PlayStation",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps1/FF_VI.JPEG"
+  },
+  {
+    "id": 11,
+    "titulo": "Soulblade",
+    "plataforma": "PlayStation",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps1/Soulblade.JPEG"
+  },
+  {
+    "id": 12,
+    "titulo": "Final Fantasy VII",
+    "plataforma": "PlayStation",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps1/FFVII.JPEG"
+  },
+  {
+    "id": 13,
+    "titulo": "AIR COMBAT",
+    "plataforma": "PlayStation",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps1/AIR_COMBAT.JPEG"
+  },
+  {
+    "id": 14,
+    "titulo": "TEKKEN 3",
+    "plataforma": "PlayStation",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps1/TEKKEN3.JPEG"
+  },
+  {
+    "id": 15,
+    "titulo": "Final Fantasy IX",
+    "plataforma": "PlayStation",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps1/FFIX.JPEG"
+  },
+  {
+    "id": 16,
+    "titulo": "Final Fantasy Anthology",
+    "plataforma": "PlayStation",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps1/FF_Anthology.JPEG"
+  },
+  {
+    "id": 17,
+    "titulo": "Final Fantasy Origins",
+    "plataforma": "PlayStation",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps1/FF_Origins.JPEG"
+  },
+  {
+    "id": 18,
+    "titulo": "Everybodys Golf 2",
+    "plataforma": "PlayStation",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps1/Everybodys_golf2.JPEG"
+  },
+  {
+    "id": 19,
+    "titulo": "Tomb Raider 3",
+    "plataforma": "PlayStation",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps1/Tomb_Raider3.JPEG"
+  },
+  {
+    "id": 20,
+    "titulo": "Tomb Raider 2",
+    "plataforma": "PlayStation",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps1/Tomb_Raider2.JPEG"
+  },
+  {
+    "id": 21,
+    "titulo": "Tomb Raider",
+    "plataforma": "PlayStation",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps1/Tomb_Raider.JPEG"
+  },
 
 
 
