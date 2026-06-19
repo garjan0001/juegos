@@ -1325,14 +1325,197 @@
 
 
   
-
   
   {
-    "id": 30000,
-    "titulo": "Shenmue",
-    "plataforma": "Dreamcast",
+    "id": 501,
+    "titulo": "Martha is Dead",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Martha_is_Dead.JPEG"
+  },  
+  {
+    "id": 502,
+    "titulo": "Residen Evil Requiem",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Residen_Evil_Requiem.JPEG"
+  },  
+  {
+    "id": 503,
+    "titulo": "Residen Evil 4 Remake",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Residen_Evil4_Remake.JPEG"
+  },  
+  {
+    "id": 504,
+    "titulo": "Tormented Soul 2",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Tormented_soul2.JPEG"
+  },  
+  {
+    "id": 505,
+    "titulo": "Final Fantasy VII Rebirth",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/FF_VII_Rebirth.JPEG"
+  },  
+  {
+    "id": 506,
+    "titulo": "Ghost of Yotei",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Ghost_of_Yotei.JPEG"
+  },  
+  {
+    "id": 507,
+    "titulo": "YAkuza Like a Dragon Infinite Wealth",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/YAkuza_Like_a_Dragon_Infinite_Wealth.JPEG"
+  },  
+  {
+    "id": 508,
+    "titulo": "Final Fantasy XVI",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/FFXVI.JPEG"
+  },  
+  {
+    "id": 509,
+    "titulo": "Final Fantasy VII Remake",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/FFVII_Remake.JPEG"
+  },  
+  {
+    "id": 510,
+    "titulo": "Returnal",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Returnal.JPEG"
+  },  
+  {
+    "id": 511,
+    "titulo": "The Stanley Parable",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/The_Stanley_parable.JPEG"
+  },  
+  {
+    "id": 512,
+    "titulo": "Prince Persia Lost Crown",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Prince_persia_lost_crown.JPEG"
+  },  
+  {
+    "id": 513,
+    "titulo": "Stray",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Stray.JPEG"
+  },  
+  {
+    "id": 514,
+    "titulo": "Horizon Forbidden West",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Horizon_Forbidden_West.JPEG"
+  },  
+  {
+    "id": 515,
+    "titulo": "Hell is US",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Hell_is_US.JPEG"
+  },  
+  {
+    "id": 516,
+    "titulo": "Tomb Raider Remastered",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Tomb_Raider_Remastered.JPEG"
+  },  
+  {
+    "id": 517,
+    "titulo": "Alan Wake 2",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Alan_Wake2.JPEG"
+  },  
+  {
+    "id": 518,
+    "titulo": "Jedi Suvirvor",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Jedi_suvirvor.JPEG"
+  },  
+  {
+    "id": 519,
+    "titulo": "Expedition 33",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Expedition33.JPEG"
+  },  
+  {
+    "id": 520,
+    "titulo": "Suicide Squad",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Suicide_Squad.JPEG"
+  },  
+  {
+    "id": 521,
+    "titulo": "Robocop Rogue City",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Robocop_Rogue_city.JPEG"
+  },  
+  {
+    "id": 522,
+    "titulo": "Kingdom Come Deliverance 2",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Kingdom_come_deliverance2.JPEG"
+  },  
+  {
+    "id": 523,
+    "titulo": "Sea_of_Stars",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/Sea_of_Strars.JPEG"
+  },  
+  {
+    "id": 524,
+    "titulo": "Soul Reaver Remastered",
+    "plataforma": "PlayStation 5",
     "prestadoA": "",
     "region": "PAL",
-    "portada": "images/dreamcast/shenmue.jpg"
+    "portada": "images/ps5/Soul_Reaver_Remastered.JPEG"
   }
 ]
