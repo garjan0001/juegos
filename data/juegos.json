@@ -1266,11 +1266,11 @@
   },
   {
     "id": 442,
-    "titulo": "Resident Evil Village",
+    "titulo": "Resident Evil VII",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps4/resident_evil_village.JPEG"
+    "portada": "images/ps4/resident_evil_vII.JPEG"
   },
   {
     "id": 443,
@@ -1344,7 +1344,7 @@
   },  
   {
     "id": 502,
-    "titulo": "Residen Evil Requiem",
+    "titulo": "Resident Evil Requiem",
     "plataforma": "PlayStation 5",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -1352,7 +1352,7 @@
   },  
   {
     "id": 503,
-    "titulo": "Residen Evil 4 Remake",
+    "titulo": "Resident Evil 4 Remake",
     "plataforma": "PlayStation 5",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -1517,6 +1517,14 @@
     "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps5/Sea_of_Strars.JPEG"
+  },  
+  {
+    "id": 525,
+    "titulo": "Resident Evil VILLage",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps5/resident_evil_village.JPEG"
   },  
   {
     "id": 524,
