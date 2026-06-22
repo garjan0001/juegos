@@ -471,19 +471,19 @@
   },
   {
     "id": 139,
-    "titulo": "Resident Evil 4",
+    "titulo": "nt Evil 4",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps2/Resident_Evil4.jpg"
+    "portada": "images/ps2/nt_Evil4.jpg"
   },
   {
     "id": 140,
-    "titulo": "Resident Evil code Veronica",
+    "titulo": "nt Evil code Veronica",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps2/Resident_Evil_code_Veronica.jpg"
+    "portada": "images/ps2/nt_Evil_code_Veronica.jpg"
   },
   {
     "id": 141,
@@ -1234,35 +1234,35 @@
   },
   {
     "id": 438,
-    "titulo": "Resident Evil 2 Remake",
+    "titulo": "nt Evil 2 Remake",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps4/resident_evil2_remake.JPEG"
+    "portada": "images/ps4/nt_evil2_remake.JPEG"
   },
   {
     "id": 439,
-    "titulo": "Resident Evil 3 remake",
+    "titulo": "nt Evil 3 remake",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps4/resident_evil3_remake.JPEG"
+    "portada": "images/ps4/nt_evil3_remake.JPEG"
   },
   {
     "id": 440,
-    "titulo": "Resident Evil 5",
+    "titulo": "nt Evil 5",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps4/resident_evil5.JPEG"
+    "portada": "images/ps4/nt_evil5.JPEG"
   },
   {
     "id": 441,
-    "titulo": "Resident Evil 6",
+    "titulo": "nt Evil 6",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps4/resident_evil6.JPEG"
+    "portada": "images/ps4/nt_evil6.JPEG"
   },
   {
     "id": 442,
@@ -1270,7 +1270,7 @@
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps4/resident_evil_vII.JPEG"
+    "portada": "images/ps4/resident_evil_village.JPEG"
   },
   {
     "id": 443,
