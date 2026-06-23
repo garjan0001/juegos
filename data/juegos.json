@@ -174,7 +174,7 @@
   
   {
     "id": 101,
-    "titulo": "187 Ride or die",
+    "titulo": "187 Ride or Die",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -182,7 +182,7 @@
   },
   {
     "id": 102,
-    "titulo": "18 Eigteen wheeler",
+    "titulo": "18 Eigteen Wheeler",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -190,7 +190,7 @@
   },
   {
     "id": 103,
-    "titulo": "CAll of Duty World at War",
+    "titulo": "Call of Duty World at War",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -198,7 +198,7 @@
   },
   {
     "id": 104,
-    "titulo": "Crash Bandicoot wrath cortex",
+    "titulo": "Crash Bandicoot Wrath Cortex",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -206,7 +206,7 @@
   },
   {
     "id": 105,
-    "titulo": "Crash guerra al coco maniaco",
+    "titulo": "Crash Guerra al Coco Maniaco",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -215,7 +215,7 @@
 
   {
     "id": 106,
-    "titulo": "Crazy taxi",
+    "titulo": "Crazy Taxi",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -239,7 +239,7 @@
   },
   {
     "id": 109,
-    "titulo": "Dogs life",
+    "titulo": "Dogs Life",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -263,7 +263,7 @@
   },
   {
     "id": 112,
-    "titulo": "Eye toy Play",
+    "titulo": "Eye Toy Play",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -303,7 +303,7 @@
   },
   {
     "id": 117,
-    "titulo": "GRU Mi villano favorito",
+    "titulo": "GRU Mi Villano Favorito",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -335,7 +335,7 @@
   },
   {
     "id": 121,
-    "titulo": "Kingdom hearts",
+    "titulo": "Kingdom Hearts",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -375,7 +375,7 @@
   },
   {
     "id": 126,
-    "titulo": "Locos por el surf",
+    "titulo": "Locos por el Surf",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -383,7 +383,7 @@
   },
   {
     "id": 127,
-    "titulo": "motoGP",
+    "titulo": "MotoGP",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -423,7 +423,7 @@
   },
     {
     "id": 132,
-    "titulo": "Pro rally 2002",
+    "titulo": "Pro Rally 2002",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -431,7 +431,7 @@
   },
   {
     "id": 133,
-    "titulo": "motoGP 4",
+    "titulo": "MotoGP 4",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -439,7 +439,7 @@
   },
   {
     "id": 134,
-    "titulo": "Rayman raving rabbids",
+    "titulo": "Rayman Raving Rabbids",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -471,19 +471,19 @@
   },
   {
     "id": 139,
-    "titulo": "nt Evil 4",
+    "titulo": "Resident Evil 4",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps2/nt_Evil4.jpg"
+    "portada": "images/ps2/Resident_Evil4.jpg"
   },
   {
     "id": 140,
-    "titulo": "nt Evil code Veronica",
+    "titulo": "Resident Evil Code Veronica",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps2/nt_Evil_code_Veronica.jpg"
+    "portada": "images/ps2/Resident_Evil_code_Veronica.jpg"
   },
   {
     "id": 141,
@@ -623,7 +623,7 @@
   },
   {
     "id": 158,
-    "titulo": "Think_fast",
+    "titulo": "Think Fast",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -631,7 +631,7 @@
   },
   {
     "id": 159,
-    "titulo": "Toca racer driver 2",
+    "titulo": "Toca Racer Driver 2",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -639,7 +639,7 @@
   },
   {
     "id": 160,
-    "titulo": "Tomb Raider el Angel de la oscuridad",
+    "titulo": "Tomb Raider el Angel de la Oscuridad",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -647,7 +647,7 @@
   },
   {
     "id": 161,
-    "titulo": "homerun",
+    "titulo": "Homerun",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -655,7 +655,7 @@
   },
   {
     "id": 162,
-    "titulo": "juiced 2",
+    "titulo": "Juiced 2",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -663,7 +663,7 @@
   },
   {
     "id": 163,
-    "titulo": "los_sims",
+    "titulo": "Los Sims",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -671,7 +671,7 @@
   },
   {
     "id": 164,
-    "titulo": "lotus challenge",
+    "titulo": "Lotus Challenge",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -715,7 +715,7 @@
 
   {
     "id": 301,
-    "titulo": "Everybodys golf world tour",
+    "titulo": "Everybodys Golf World Tour",
     "plataforma": "PlayStation 3",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -731,7 +731,7 @@
   },
   {
     "id": 303,
-    "titulo": "Final fantasy_XIII",
+    "titulo": "Final fantasy XIII",
     "plataforma": "PlayStation 3",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -739,7 +739,7 @@
   },
   {
     "id": 304,
-    "titulo": "God of war ascension",
+    "titulo": "God of War Ascension",
     "plataforma": "PlayStation 3",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -755,7 +755,7 @@
   },
   {
     "id": 306,
-    "titulo": "Metal Gear colection VOL 1",
+    "titulo": "Metal Gear Colection VOL 1",
     "plataforma": "PlayStation 3",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -763,7 +763,7 @@
   },
   {
     "id": 307,
-    "titulo": "NBA_2k8",
+    "titulo": "NBA 2k8",
     "plataforma": "PlayStation 3",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -779,7 +779,7 @@
   },
   {
     "id": 309,
-    "titulo": "Socom confrontation",
+    "titulo": "Socom Confrontation",
     "plataforma": "PlayStation 3",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -803,7 +803,7 @@
   },
   {
     "id": 312,
-    "titulo": "F1 champ edition",
+    "titulo": "F1 Champ Edition",
     "plataforma": "PlayStation 3",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -843,7 +843,7 @@
   },
   {
     "id": 317,
-    "titulo": "house of the dead overkill",
+    "titulo": "House of The Dead Overkill",
     "plataforma": "PlayStation 3",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -867,7 +867,7 @@
   },
   {
     "id": 320,
-    "titulo": "lollipop chainsaw",
+    "titulo": "Lollipop Chainsaw",
     "plataforma": "PlayStation 3",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -883,7 +883,7 @@
   },
   {
     "id": 322,
-    "titulo": "socom special_forces",
+    "titulo": "Socom Special Forces",
     "plataforma": "PlayStation 3",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -931,11 +931,28 @@
   },
   {
     "id": 328,
-    "titulo": "Play_station_move",
+    "titulo": "Play Station Move",
     "plataforma": "PlayStation 3",
     "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps3/Play_station_move.jpg"
+  },
+  {
+    "id": 329,
+    "titulo": "Resistance 3",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/resistance3.jpg"
+  },
+
+  {
+    "id": 330,
+    "titulo": "L.A Noire",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/LANnoire.jpg"
   },
 
 
@@ -994,7 +1011,7 @@
   },
   {
     "id": 407,
-    "titulo": "cyberpunk 2077",
+    "titulo": "Cyberpunk 2077",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -1002,7 +1019,7 @@
   },
   {
     "id": 408,
-    "titulo": "dredge",
+    "titulo": "Dredge",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -1010,7 +1027,7 @@
   },
   {
     "id": 409,
-    "titulo": "driveclub",
+    "titulo": "Driveclub",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
@@ -1234,35 +1251,35 @@
   },
   {
     "id": 438,
-    "titulo": "nt Evil 2 Remake",
+    "titulo": "Resident Evil 2 Remake",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps4/nt_evil2_remake.JPEG"
+    "portada": "images/ps4/resident_evil2_remake.JPEG"
   },
   {
     "id": 439,
-    "titulo": "nt Evil 3 remake",
+    "titulo": "Resident Evil 3 remake",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps4/nt_evil3_remake.JPEG"
+    "portada": "images/ps4/resident_evil3_remake.JPEG"
   },
   {
     "id": 440,
-    "titulo": "nt Evil 5",
+    "titulo": "Resident Evil 5",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps4/nt_evil5.JPEG"
+    "portada": "images/ps4/resident_evil5.JPEG"
   },
   {
     "id": 441,
-    "titulo": "nt Evil 6",
+    "titulo": "Resident Evil 6",
     "plataforma": "PlayStation 4",
     "prestadoA": "",
     "region": "PAL ESP",
-    "portada": "images/ps4/nt_evil6.JPEG"
+    "portada": "images/ps4/resident_evil6.JPEG"
   },
   {
     "id": 442,
@@ -1525,6 +1542,14 @@
     "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps5/resident_evil_village.JPEG"
+  },  
+  {
+    "id": 526,
+    "titulo": "Song of Horror",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps5/song_of_horror.JPEG"
   },  
   {
     "id": 524,
