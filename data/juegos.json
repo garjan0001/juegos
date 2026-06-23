@@ -1345,7 +1345,14 @@
     "region": "PAL ESP",
     "portada": "images/ps4/yakuza_like_a_dragon.JPEG"
   },
-
+  {
+    "id": 450,
+    "titulo": "Song of Horror",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/song_of_horror.JPEG"
+  },  
 
   
 
@@ -1543,14 +1550,7 @@
     "region": "PAL ESP",
     "portada": "images/ps5/resident_evil_village.JPEG"
   },  
-  {
-    "id": 526,
-    "titulo": "Song of Horror",
-    "plataforma": "PlayStation 5",
-    "prestadoA": "",
-    "region": "PAL ESP",
-    "portada": "images/ps5/song_of_horror.JPEG"
-  },  
+
   {
     "id": 524,
     "titulo": "Soul Reaver Remastered",
