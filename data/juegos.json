@@ -1542,6 +1542,14 @@
     "region": "PAL ESP",
     "portada": "images/ps5/resident_evil_village.JPEG"
   },  
+  {
+    "id": 526,
+    "titulo": "Indiana Jones y el Gran Círculo",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps5/Indiana_Jones_Gran_Círculo.JPEG"
+  },  
 
   {
     "id": 524,
