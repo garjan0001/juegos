@@ -949,7 +949,7 @@
     "id": 330,
     "titulo": "Gran Turismo 6",
     "plataforma": "PlayStation 3",
-    "prestadoA": "",
+    "prestadoA": "Jose H Vane",
     "region": "PAL ESP",
     "portada": "images/ps3/GT6.JPG"
   },  
@@ -1102,7 +1102,7 @@
     "plataforma": "PlayStation 4",
     "prestadoA": "Jose H Vane",
     "region": "PAL ESP",
-    "portada": "images/ps4/The_last_of_us.JPEG"
+    "portada": "images/ps4/the_last_us.JPG"
   },
   {
     "id": 420,
@@ -1110,7 +1110,7 @@
     "plataforma": "PlayStation 4",
     "prestadoA": "Jose H Vane",
     "region": "PAL ESP",
-    "portada": "images/ps4/The_last_of_us2.JPEG"
+    "portada": "images/ps4/the_last_us2.JPG"
   },
   {
     "id": 421,
@@ -1134,15 +1134,15 @@
     "plataforma": "PlayStation 4",
     "prestadoA": "Jose H Vane",
     "region": "PAL ESP",
-    "portada": "images/ps4/red_dead.JPEG"
+    "portada": "images/ps4/red_dead_revolver2.JPG"
   },
   {
     "id": 424,
-    "titulo": "God of War",
+    "titulo": "God of War 2018",
     "plataforma": "PlayStation 4",
     "prestadoA": "Jose H Vane",
     "region": "PAL ESP",
-    "portada": "images/ps4/god_war.JPEG"
+    "portada": "images/ps4/god_of_war2018.JPG"
   },
   {
     "id": 425,
@@ -1150,7 +1150,7 @@
     "plataforma": "PlayStation 4",
     "prestadoA": "Jose H Vane",
     "region": "PAL ESP",
-    "portada": "images/ps4/god_war_ragna.JPEG"
+    "portada": "images/ps4/god_of_war_ragna.JPG"
   },
   {
     "id": 426,
@@ -1158,7 +1158,7 @@
     "plataforma": "PlayStation 4",
     "prestadoA": "Jose H Vane",
     "region": "PAL ESP",
-    "portada": "images/ps4/titanfall2.JPEG"
+    "portada": "images/ps4/titanfall2"
   },
   {
     "id": 427,
@@ -1166,7 +1166,7 @@
     "plataforma": "PlayStation 4",
     "prestadoA": "Jose H Vane",
     "region": "PAL ESP",
-    "portada": "images/ps4/ffxv.JPEG"
+    "portada": "images/ps4/FFXV.JPG"
   },
   {
     "id": 428,
@@ -1174,7 +1174,7 @@
     "plataforma": "PlayStation 4",
     "prestadoA": "Jose H Vane",
     "region": "PAL ESP",
-    "portada": "images/ps4/NBA2k15.JPEG"
+    "portada": "images/ps4/NBA2k15.JPG"
   },
   {
     "id": 429,
@@ -1182,7 +1182,7 @@
     "plataforma": "PlayStation 4",
     "prestadoA": "Jose H Vane",
     "region": "PAL ESP",
-    "portada": "images/ps4/singstarmega.JPEG"
+    "portada": "images/ps4/singstar_megahits.JPG"
   },
   {
     "id": 430,
@@ -1190,7 +1190,7 @@
     "plataforma": "PlayStation 4",
     "prestadoA": "Jose H Vane",
     "region": "PAL ESP",
-    "portada": "images/ps4/spyroremake.JPEG"
+    "portada": "images/ps4/spyro.JPG"
   },
   {
     "id": 431,
@@ -1198,7 +1198,7 @@
     "plataforma": "PlayStation 4",
     "prestadoA": "Jose H Vane",
     "region": "PAL ESP",
-    "portada": "images/ps4/soulcalibur6.JPEG"
+    "portada": "images/ps4/soulcalibur6.JPG"
   },
   {
     "id": 432,
