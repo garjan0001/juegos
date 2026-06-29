@@ -945,7 +945,14 @@
     "region": "PAL ESP",
     "portada": "images/ps3/resistance3.JPEG"
   },
-
+  {
+    "id": 330,
+    "titulo": "Gran Turismo 6",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/GT6.JPG"
+  },  
   
 
   
@@ -1345,7 +1352,16 @@
     "region": "PAL ESP",
     "portada": "images/ps4/song_of_horror_[front].JPEG"
   },  
+  {
+    "id": 451,
+    "titulo": "Horizon Zero Dawn",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/horizon_zero.JPG"
+  },  
 
+  
   
 
   
