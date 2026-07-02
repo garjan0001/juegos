@@ -671,13 +671,28 @@
   },
   {
     "id": 164,
+    "titulo": "SingStar",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/SingStar.JPEG"
+  },
+  {
+    "id": 165,
+    "titulo": "SingStar Rocks",
+    "plataforma": "PlayStation 2",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps2/SingStarRocks.JPEG"
+  },
+    {
+    "id": 166,
     "titulo": "Lotus Challenge",
     "plataforma": "PlayStation 2",
     "prestadoA": "",
     "region": "PAL ESP",
     "portada": "images/ps2/lotus_challenge.jpg"
   },
-
 
   
   
@@ -953,7 +968,14 @@
     "region": "PAL ESP",
     "portada": "images/ps3/GT6.JPG"
   },  
-  
+    {
+    "id": 331,
+    "titulo": "SingStar POP 2009",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "Jose H Vane",
+    "region": "PAL ESP",
+    "portada": "images/ps3/SingStarPOP2009.JPEG"
+  },  
 
   
 
