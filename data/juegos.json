@@ -1382,7 +1382,25 @@
     "region": "PAL ESP",
     "portada": "images/ps4/horizon_zero.JPG"
   },  
+  {
+    "id": 452,
+    "titulo": "Resident Evil Revelarions",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/RE_Revelations.JPEG"
+  },  
+  {
+    "id": 453,
+    "titulo": "Resident Evil Revelarions 2",
+    "plataforma": "PlayStation 4",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps4/RE_Revelations2.JPEG"
+  },  
 
+
+  
   
   
 
