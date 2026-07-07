@@ -1606,7 +1606,18 @@
     "region": "PAL ESP",
     "portada": "images/ps5/Indiana_Jones_Gran_Círculo.JPEG"
   },  
+  {
+    "id": 527,
+    "titulo": "The Thaumaturge",
+    "plataforma": "PlayStation 5",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps5/The_Thaumaturge.JPEG"
+  },
 
+
+  
+  
   {
     "id": 524,
     "titulo": "Soul Reaver Remastered",
