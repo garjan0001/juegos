@@ -975,6 +975,14 @@
     "prestadoA": "Jose H Vane",
     "region": "PAL ESP",
     "portada": "images/ps3/SingStarPOP2009.JPEG"
+  },
+  {
+    "id": 332,
+    "titulo": "Red Dead Rendemtion",
+    "plataforma": "PlayStation 3",
+    "prestadoA": "",
+    "region": "PAL ESP",
+    "portada": "images/ps3/RedDeadRendemtion.JPEG"
   },  
 
   
@@ -1152,7 +1160,7 @@
   },
   {
     "id": 423,
-    "titulo": "Red Dead Rendemtion",
+    "titulo": "Red Dead Rendemtion 2",
     "plataforma": "PlayStation 4",
     "prestadoA": "Jose H Vane",
     "region": "PAL ESP",
