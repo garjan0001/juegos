@@ -282,6 +282,15 @@ function renderizarJuegos() {
                 <div class="game-plataforma">🖥️ ${escapeHtml(juego.plataforma || 'Sin especificar')}</div>
                 <div class="game-region">🌍 ${escapeHtml(juego.region || 'Sin región')}</div>
                 ${estadoMostrar ? `<div class="game-estado">${estadoMostrar}</div>` : ''}
+                
+                <!-- NUEVO: Enlace para ver el precio de mercado -->
+                <a href="https://www.pricecharting.com/search-products?q=${encodeURIComponent(juego.titulo + ' ' + (juego.plataforma || ''))}" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="btn-precio"
+                   onclick="event.stopPropagation();">
+                   🏷️ Ver precio
+                </a>
             </div>
         `;
     });
