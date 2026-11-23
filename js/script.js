@@ -538,6 +538,15 @@ function actualizarEstadisticas() {
     barJugandoText.textContent = jugando;
     barPendientesText.textContent = pendientes;
     barPrestadosText.textContent = prestados;
+
+    const valorTotal = juegosFiltrados.reduce((sum, j) => sum + (parseFloat(j.precio) || 0), 0);
+    const valorTotalEl = document.getElementById('valor-total');
+    if (valorTotalEl) {
+        valorTotalEl.textContent = valorTotal.toLocaleString('es-ES', {
+            style: 'currency',
+            currency: 'EUR'
+        });
+    }
     
     const headerSub = document.getElementById('total-juegos-header');
     if (headerSub) headerSub.textContent = `${total} juegos · ${new Set(juegos.map(j => j.plataforma)).size} plataformas`;
