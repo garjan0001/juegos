@@ -16,7 +16,7 @@
       "images/ps1/Gran-Turismo-back.jpeg",
       "images/ps1/Gran-Turismo-side.jpeg"
     ],
-    "precio": 0.0
+    "precio": 10.62
   },
   {
     "id": 2,
@@ -35,7 +35,7 @@
       "images/ps1/NHL_2000-back-.jpeg",
       "images/ps1/NHL_2000-side-.jpeg"
     ],
-    "precio": 0.0
+    "precio": 3.89
   },
   {
     "id": 3,
@@ -53,7 +53,7 @@
       "images/ps1/Parasite_Eve_2-back-.jpeg",
       "images/ps1/Parasite_Eve_2-inside-.jpeg"
     ],
-    "precio": 0.0
+    "precio": 166.15
   },
   {
     "id": 4,
@@ -72,7 +72,7 @@
       "images/ps1/Time_Crisis-back-.jpeg",
       "images/ps1/Time_Crisis-side-.jpeg"
     ],
-    "precio": 0.0
+    "precio": 8.27
   },
   {
     "id": 5,
@@ -110,7 +110,7 @@
       "images/ps1/Time_Crisis_Project_Titan-back-.jpeg",
       "images/ps1/Time_Crisis_Project_Titan-side-.jpeg"
     ],
-    "precio": 0.0
+    "precio": 13.12
   },
   {
     "id": 7,
@@ -146,7 +146,7 @@
       "images/ps1/Point_Bank-inside-.jpeg",
       "images/ps1/Point_Bank-back.jpeg"
     ],
-    "precio": 0.0
+    "precio": 26.7
   },
   {
     "id": 9,
@@ -182,7 +182,7 @@
       "images/ps1/FF_VI.jpeg",
       "images/ps1/FF_VI-inside.jpeg"
     ],
-    "precio": 0.0
+    "precio": 25.63
   },
   {
     "id": 11,
@@ -221,7 +221,7 @@
       "images/ps1/FFVII-back.jpeg",
       "images/ps1/FFVII-side.jpeg"
     ],
-    "precio": 0.0
+    "precio": 25.27
   },
   {
     "id": 13,
@@ -239,7 +239,7 @@
       "images/ps1/AIR_COMBAT-inside.jpeg",
       "images/ps1/AIR_COMBAT-back.jpeg"
     ],
-    "precio": 0.0
+    "precio": 5.55
   },
   {
     "id": 14,
@@ -258,7 +258,7 @@
       "images/ps1/TEKKEN3-back.jpeg",
       "images/ps1/TEKKEN3-side.jpeg"
     ],
-    "precio": 0.0
+    "precio": 23.22
   },
   {
     "id": 15,
@@ -278,7 +278,7 @@
       "images/ps1/FFIX-back.jpeg",
       "images/ps1/FFIX-side.jpeg"
     ],
-    "precio": 0.0
+    "precio": 24.85
   },
   {
     "id": 16,
@@ -296,7 +296,7 @@
       "images/ps1/FF_Anthology-inside.jpeg",
       "images/ps1/FF_Anthology-back.jpeg"
     ],
-    "precio": 0.0
+    "precio": 28.34
   },
   {
     "id": 17,
@@ -314,7 +314,7 @@
       "images/ps1/FF_Origins-inside.jpeg",
       "images/ps1/FF_Origins-back.jpeg"
     ],
-    "precio": 0.0
+    "precio": 43.35
   },
   {
     "id": 18,
@@ -495,7 +495,7 @@
       "images/ps2/Crazy_taxi-inside.JPEG",
       "images/ps2/Crazy_taxi-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 9.16
   },
   {
     "id": 107,
@@ -513,7 +513,7 @@
       "images/ps2/DOA2-back.JPEG",
       "images/ps2/DOA2-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 13.54
   },
   {
     "id": 108,
@@ -531,7 +531,7 @@
       "images/ps2/Devil_May_cry-inside.JPEG",
       "images/ps2/Devil_May_cry-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 11.63
   },
   {
     "id": 109,
@@ -585,7 +585,7 @@
       "images/ps2/extermination-inside.JPEG",
       "images/ps2/extermination-bacck.JPEG"
     ],
-    "precio": 0.0
+    "precio": 9.26
   },
   {
     "id": 112,
@@ -603,7 +603,7 @@
       "images/ps2/Eye_toy_Play-side.JPEG",
       "images/ps2/Eye_toy_Play-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 3.05
   },
   {
     "id": 113,
@@ -621,7 +621,7 @@
       "images/ps2/fifa11-inside.JPEG",
       "images/ps2/fifa11-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 7.99
   },
   {
     "id": 114,
@@ -639,7 +639,7 @@
       "images/ps2/FFX-inside.JPEG",
       "images/ps2/FFX-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 8.65
   },
   {
     "id": 115,
@@ -657,7 +657,7 @@
       "images/ps2/FFX2-inside.JPEG",
       "images/ps2/FFX2-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 4.5
   },
   {
     "id": 116,
@@ -675,7 +675,7 @@
       "images/ps2/FFXII-inside.JPEG",
       "images/ps2/FFXII-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 5.11
   },
   {
     "id": 117,
@@ -711,7 +711,7 @@
       "images/ps2/GT3-inside.JPEG",
       "images/ps2/GT3-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 5.85
   },
   {
     "id": 119,
@@ -729,7 +729,7 @@
       "images/ps2/GT4-inside.JPEG",
       "images/ps2/GT4-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 7.36
   },
   {
     "id": 120,
@@ -765,7 +765,7 @@
       "images/ps2/kh-inside.JPEG",
       "images/ps2/kh-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 15.99
   },
   {
     "id": 122,
@@ -783,7 +783,7 @@
       "images/ps2/lego-starwar-inside.JPEG",
       "images/ps2/lego-starwar-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 6.51
   },
   {
     "id": 123,
@@ -873,7 +873,7 @@
       "images/ps2/motogp-inside.JPEG",
       "images/ps2/motogp-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 4.76
   },
   {
     "id": 128,
@@ -891,7 +891,7 @@
       "images/ps2/MRGolf-inside.JPEG",
       "images/ps2/MRGolf-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 3.8
   },
   {
     "id": 129,
@@ -945,7 +945,7 @@
       "images/ps2/PES2008-inside.JPEG",
       "images/ps2/PES2008-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 3.16
   },
   {
     "id": 132,
@@ -963,7 +963,7 @@
       "images/ps2/prorally-inside.JPEG",
       "images/ps2/prorally-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 6.44
   },
   {
     "id": 133,
@@ -981,7 +981,7 @@
       "images/ps2/motogp4-inside.JPEG",
       "images/ps2/motogp4-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 5.0
   },
   {
     "id": 134,
@@ -999,7 +999,7 @@
       "images/ps2/rayman_rabbids-inside.JPEG",
       "images/ps2/rayman_rabbids-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 6.12
   },
   {
     "id": 135,
@@ -1053,7 +1053,7 @@
       "images/ps2/rayman_M-inside.JPEG",
       "images/ps2/rayman_M-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 3.65
   },
   {
     "id": 139,
@@ -1071,7 +1071,7 @@
       "images/ps2/RE4-inside.JPEG",
       "images/ps2/RE4-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 24.51
   },
   {
     "id": 140,
@@ -1143,7 +1143,7 @@
       "images/ps2/snooker-inside.JPEG",
       "images/ps2/snooker-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 6.14
   },
   {
     "id": 144,
@@ -1251,7 +1251,7 @@
       "images/ps2/Speed_RAcer-inside.JPEG",
       "images/ps2/Speed_RAcer-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 14.21
   },
   {
     "id": 150,
@@ -1269,7 +1269,7 @@
       "images/ps2/StarWArs_Battlefront-inside.JPEG",
       "images/ps2/SW_battle-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 10.53
   },
   {
     "id": 151,
@@ -1287,7 +1287,7 @@
       "images/ps2/StarWArs_Battlefront2-inside.JPEG",
       "images/ps2/StarWArs_Battlefront2-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 9.4
   },
   {
     "id": 152,
@@ -1323,7 +1323,7 @@
       "images/ps2/super_bust-inside.JPEG",
       "images/ps2/super_bust-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 6.94
   },
   {
     "id": 154,
@@ -1359,7 +1359,7 @@
       "images/ps2/Tekken4-inside.JPEG",
       "images/ps2/Tekken4-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 10.94
   },
   {
     "id": 156,
@@ -1395,7 +1395,7 @@
       "images/ps2/the_bouncer-inside.JPEG",
       "images/ps2/the_bouncer-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 15.84
   },
   {
     "id": 158,
@@ -1467,7 +1467,7 @@
       "images/ps2/homerun-inside.JPEG",
       "images/ps2/homerun-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 4.83
   },
   {
     "id": 162,
@@ -1521,7 +1521,7 @@
       "images/ps2/lotus-inside.JPEG",
       "images/ps2/lotus-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 6.48
   },
   {
     "id": 165,
@@ -1539,7 +1539,7 @@
       "images/ps2/SingStar-inside.JPEG",
       "images/ps2/SingStar-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 10.47
   },
   {
     "id": 166,
@@ -1557,7 +1557,7 @@
       "images/ps2/SingStarRocks-inside.JPEG",
       "images/ps2/SingStarRocks-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 5.24
   },
   {
     "id": 167,
@@ -1592,7 +1592,7 @@
       "images/ps2/FIFA08.JPEG",
       "images/ps2/FIFA08-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 3.78
   },
   {
     "id": 169,
@@ -1610,7 +1610,7 @@
       "images/ps2/FIFA13-inside.JPEG",
       "images/ps2/FIFA13-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 16.66
   },
   {
     "id": 170,
@@ -1646,7 +1646,7 @@
       "images/ps2/MOHrising-inside.JPEG",
       "images/ps2/MOHrising-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 3.05
   },
   {
     "id": 172,
@@ -1664,7 +1664,7 @@
       "images/ps2/PES_2014-inside.JPEG",
       "images/ps2/PES_2014-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 93.32
   },
   {
     "id": 173,
@@ -1682,7 +1682,7 @@
       "images/ps2/PES5-inside.JPEG",
       "images/ps2/PES5-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 5.69
   },
   {
     "id": 174,
@@ -1700,7 +1700,7 @@
       "images/ps2/PES6-inside.JPEG",
       "images/ps2/PES6-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 10.26
   },
   {
     "id": 175,
@@ -1718,7 +1718,7 @@
       "images/ps2/PES2009-inside.JPEG",
       "images/ps2/PES2009-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 6.33
   },
   {
     "id": 176,
@@ -1736,7 +1736,7 @@
       "images/ps2/PES2010-inside.JPEG",
       "images/ps2/PES2010-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 7.49
   },
   {
     "id": 177,
@@ -1754,7 +1754,7 @@
       "images/ps2/PES2011-inside.JPEG",
       "images/ps2/PES2011-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 15.97
   },
   {
     "id": 178,
@@ -1772,7 +1772,7 @@
       "images/ps2/RedDeadRevolver-inside.JPEG",
       "images/ps2/RedDeadRevolver-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 18.23
   },
   {
     "id": 179,
@@ -1790,7 +1790,7 @@
       "images/ps2/Roland_garros_2005-inside.JPEG",
       "images/ps2/Roland_garros_2005-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 7.29
   },
   {
     "id": 180,
@@ -1808,7 +1808,7 @@
       "images/ps2/SMART_TENNIS-inside.JPEG",
       "images/ps2/SMART_TENNIS-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 5.26
   },
   {
     "id": 181,
@@ -1826,7 +1826,7 @@
       "images/ps2/wolfestein-inside.JPEG",
       "images/ps2/wolfestein-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 15.98
   },
   {
     "id": 182,
@@ -1844,7 +1844,7 @@
       "images/ps2/WWIIsolider-inside.JPEG",
       "images/ps2/WWIIsolider-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 4.36
   },
   {
     "id": 201,
@@ -1880,7 +1880,7 @@
       "images/xbox360/gear_of_war-inside.JPEG",
       "images/xbox360/gear_of_war-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 8.91
   },
   {
     "id": 203,
@@ -1934,7 +1934,7 @@
       "images/ps3/fear-inside.JPEG",
       "images/ps3/fear-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 18.53
   },
   {
     "id": 303,
@@ -1952,7 +1952,7 @@
       "images/ps3/FFXIII-inside.JPEG",
       "images/ps3/FFXIII-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 4.76
   },
   {
     "id": 304,
@@ -1970,7 +1970,7 @@
       "images/ps3/God_of_war_ascension-inside.JPEG",
       "images/ps3/God_of_war_ascension-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 18.51
   },
   {
     "id": 305,
@@ -2026,7 +2026,7 @@
       "images/ps3/NBA2k8-inside.JPEG",
       "images/ps3/NBA2k8-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 4.71
   },
   {
     "id": 308,
@@ -2044,7 +2044,7 @@
       "images/ps3/Resistance-inside.JPEG",
       "images/ps3/Resistance-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 6.34
   },
   {
     "id": 309,
@@ -2062,7 +2062,7 @@
       "images/ps3/Socom_confrontation-inside.JPEG",
       "images/ps3/Socom_confrontation-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 3.81
   },
   {
     "id": 310,
@@ -2080,7 +2080,7 @@
       "images/ps3/Bayonetta-inside.JPEG",
       "images/ps3/Bayonetta-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 8.24
   },
   {
     "id": 311,
@@ -2134,7 +2134,7 @@
       "images/ps3/FIFA10-inside.JPEG",
       "images/ps3/FIFA10-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 3.3
   },
   {
     "id": 314,
@@ -2152,7 +2152,7 @@
       "images/ps3/GT5-inside.JPEG",
       "images/ps3/GT5-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 4.25
   },
   {
     "id": 315,
@@ -2170,7 +2170,7 @@
       "images/ps3/heavenly_sword-inside.JPEG",
       "images/ps3/heavenly_sword-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 16.82
   },
   {
     "id": 316,
@@ -2188,7 +2188,7 @@
       "images/ps3/heavy_rain-inside.JPEG",
       "images/ps3/heavy_rain-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 6.59
   },
   {
     "id": 317,
@@ -2224,7 +2224,7 @@
       "images/ps3/killzone2-inside.JPEG",
       "images/ps3/killzone2-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 6.68
   },
   {
     "id": 319,
@@ -2242,7 +2242,7 @@
       "images/ps3/killzone3-inside.JPEG",
       "images/ps3/killzone3-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 5.91
   },
   {
     "id": 320,
@@ -2260,7 +2260,7 @@
       "images/ps3/lollipop_chainsaw-inside.JPEG",
       "images/ps3/lollipop_chainsaw-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 66.29
   },
   {
     "id": 321,
@@ -2296,7 +2296,7 @@
       "images/ps3/socom_special_forces-inside.JPEG",
       "images/ps3/socom_special_forces-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 8.89
   },
   {
     "id": 323,
@@ -2314,7 +2314,7 @@
       "images/ps3/Resistance2-insie.JPEG",
       "images/ps3/Resistance2-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 6.3
   },
   {
     "id": 324,
@@ -2420,7 +2420,7 @@
       "images/ps3/Resistance3-inside.JPEG",
       "images/ps3/Resistance3-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 18.55
   },
   {
     "id": 330,
@@ -2435,7 +2435,7 @@
     "imagenes": [
       "images/ps3/GT6.JPG"
     ],
-    "precio": 0.0
+    "precio": 8.8
   },
   {
     "id": 331,
@@ -2489,7 +2489,7 @@
       "images/ps3/LANoire-inside.JPEG",
       "images/ps3/LANoire-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 4.69
   },
   {
     "id": 334,
@@ -2507,7 +2507,7 @@
       "images/ps3/sleepingdogs-inside.JPEG",
       "images/ps3/sleepingdogs-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 5.4
   },
   {
     "id": 335,
@@ -2525,7 +2525,7 @@
       "images/ps3/Singularity-inside.JPEG",
       "images/ps3/Singularity-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 13.05
   },
   {
     "id": 336,
@@ -2543,7 +2543,7 @@
       "images/ps3/Syndicate-inside.JPEG",
       "images/ps3/Syndicate-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 8.11
   },
   {
     "id": 337,
@@ -2579,7 +2579,7 @@
       "images/ps3/MassEffect2-inside.JPEG",
       "images/ps3/MassEffect2-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 5.25
   },
   {
     "id": 338,
@@ -2597,7 +2597,7 @@
       "images/ps3/CallDutyBlackOps-inside.JPEG",
       "images/ps3/CallDutyBlackOps-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 4.83
   },
   {
     "id": 339,
@@ -2615,7 +2615,7 @@
       "images/ps3/EnemyFront-inside.JPEG",
       "images/ps3/EnemyFront-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 10.78
   },
   {
     "id": 340,
@@ -2651,7 +2651,7 @@
       "images/ps3/DeadSpace-inside.JPEG",
       "images/ps3/DeadSpace-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 9.72
   },
   {
     "id": 342,
@@ -2705,7 +2705,7 @@
       "images/ps4/f12017-inside.JPEG",
       "images/ps4/f12017-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 7.59
   },
   {
     "id": 403,
@@ -2723,7 +2723,7 @@
       "images/ps4/ghost_tsushima-inside.JPEG",
       "images/ps4/ghost_tsushima-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 16.69
   },
   {
     "id": 404,
@@ -2740,7 +2740,7 @@
       "images/ps4/Hades.JPEG",
       "images/ps4/Hades-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 11.84
   },
   {
     "id": 405,
@@ -2758,7 +2758,7 @@
       "images/ps4/SW_battle-inside.JPEG",
       "images/ps4/SW_battle-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 4.1
   },
   {
     "id": 406,
@@ -2791,7 +2791,7 @@
       "images/ps4/Cyberounk2077.JPEG",
       "images/ps4/Cyberounk2077-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 15.35
   },
   {
     "id": 408,
@@ -2825,7 +2825,7 @@
       "images/ps4/driveclub.JPEG",
       "images/ps4/DriveClub-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 6.5
   },
   {
     "id": 410,
@@ -2842,7 +2842,7 @@
       "images/ps4/Ghost_reacon.JPEG",
       "images/ps4/Ghost_reacon-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 8.37
   },
   {
     "id": 411,
@@ -2860,7 +2860,7 @@
       "images/ps4/GT7-inside.JPEG",
       "images/ps4/GT-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 27.02
   },
   {
     "id": 412,
@@ -2878,7 +2878,7 @@
       "images/ps4/GTsport-inside.JPEG",
       "images/ps4/GTsport-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 6.2
   },
   {
     "id": 413,
@@ -2912,7 +2912,7 @@
       "images/ps4/hollow_knight.JPEG",
       "images/ps4/Hollow_knight-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 23.45
   },
   {
     "id": 415,
@@ -2930,7 +2930,7 @@
       "images/ps4/SW_Jedi_fallen-inside.JPEG",
       "images/ps4/SW_Jedi_fallen-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 4.66
   },
   {
     "id": 417,
@@ -2948,7 +2948,7 @@
       "images/ps4/The_evil_whithin-inside.JPEG",
       "images/ps4/The_evil_whithin-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 10.21
   },
   {
     "id": 418,
@@ -2966,7 +2966,7 @@
       "images/ps4/The_evil_whithin2-inside.JPEG",
       "images/ps4/The_evil_whithin2-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 9.49
   },
   {
     "id": 419,
@@ -3077,7 +3077,7 @@
     "imagenes": [
       "images/ps4/god_of_war_ragna.JPG"
     ],
-    "precio": 0.0
+    "precio": 22.47
   },
   {
     "id": 426,
@@ -3107,7 +3107,7 @@
     "imagenes": [
       "images/ps4/FFXV.JPG"
     ],
-    "precio": 0.0
+    "precio": 9.48
   },
   {
     "id": 428,
@@ -3122,7 +3122,7 @@
     "imagenes": [
       "images/ps4/NBA2k15.JPG"
     ],
-    "precio": 0.0
+    "precio": 5.04
   },
   {
     "id": 429,
@@ -3152,7 +3152,7 @@
     "imagenes": [
       "images/ps4/spyro.JPG"
     ],
-    "precio": 0.0
+    "precio": 14.86
   },
   {
     "id": 431,
@@ -3167,7 +3167,7 @@
     "imagenes": [
       "images/ps4/soulcalibur6.JPG"
     ],
-    "precio": 0.0
+    "precio": 9.67
   },
   {
     "id": 432,
@@ -3184,7 +3184,7 @@
       "images/ps4/Metal_surv.JPEG",
       "images/ps4/Metal_surv-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 7.99
   },
   {
     "id": 433,
@@ -3220,7 +3220,7 @@
       "images/ps4/Nier_automata-inside.JPEG",
       "images/ps4/Nier_automata-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 10.89
   },
   {
     "id": 435,
@@ -3272,7 +3272,7 @@
       "images/ps4/Prey-back.JPEG",
       "images/ps4/Prey-inside.JPEG"
     ],
-    "precio": 0.0
+    "precio": 10.97
   },
   {
     "id": 438,
@@ -3323,7 +3323,7 @@
       "images/ps4/RE5.JPEG",
       "images/ps4/RE5-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 14.89
   },
   {
     "id": 441,
@@ -3340,7 +3340,7 @@
       "images/ps4/RE6.JPEG",
       "images/ps4/RE6-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 13.36
   },
   {
     "id": 442,
@@ -3374,7 +3374,7 @@
       "images/ps4/RE_origi.JPEG",
       "images/ps4/RE_origi-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 15.24
   },
   {
     "id": 444,
@@ -3391,7 +3391,7 @@
       "images/ps4/sifu.JPEG",
       "images/ps4/SIFU-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 20.13
   },
   {
     "id": 445,
@@ -3408,7 +3408,7 @@
       "images/ps4/Tormented_souls.JPEG",
       "images/ps4/Tormented_souls-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 11.18
   },
   {
     "id": 446,
@@ -3443,7 +3443,7 @@
       "images/ps4/unmetal.JPEG",
       "images/ps4/UNMETAL-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 37.97
   },
   {
     "id": 448,
@@ -3496,7 +3496,7 @@
       "images/ps4/song_of_horror-back-.JPEG",
       "images/ps4/song_of_horror-side-.JPEG"
     ],
-    "precio": 0.0
+    "precio": 63.52
   },
   {
     "id": 451,
@@ -3511,7 +3511,7 @@
     "imagenes": [
       "images/ps4/horizon_zero.JPG"
     ],
-    "precio": 0.0
+    "precio": 6.09
   },
   {
     "id": 452,
@@ -3528,7 +3528,7 @@
       "images/ps4/RE_Revelations.JPEG",
       "images/ps4/RE_Revelations-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 18.42
   },
   {
     "id": 453,
@@ -3545,7 +3545,7 @@
       "images/ps4/RE_Revelations2.JPEG",
       "images/ps4/RE_Revelations2-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 13.05
   },
   {
     "id": 454,
@@ -3581,7 +3581,7 @@
       "images/ps5/Martha_is_Dead-inside.JPEG",
       "images/ps5/Martha_is_Dead-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 15.52
   },
   {
     "id": 502,
@@ -3598,7 +3598,7 @@
       "images/ps5/Residen_Evil_Requiem.JPEG",
       "images/ps5/Residen_Evil_Requiem-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 54.11
   },
   {
     "id": 503,
@@ -3616,7 +3616,7 @@
       "images/ps5/Residen_Evil4_Remake-inside.JPEG",
       "images/ps5/Residen_Evil4_Remake-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 16.67
   },
   {
     "id": 504,
@@ -3652,7 +3652,7 @@
       "images/ps5/FF_VII_Rebirth-inside.JPEG",
       "images/ps5/FF_VII_Rebirth-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 30.27
   },
   {
     "id": 506,
@@ -3670,7 +3670,7 @@
       "images/ps5/Ghost_of_Yotei-inside.JPEG",
       "images/ps5/Ghost_of_Yotei-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 40.47
   },
   {
     "id": 507,
@@ -3706,7 +3706,7 @@
       "images/ps5/FFXVI-inside.JPEG",
       "images/ps5/FFXVI-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 14.68
   },
   {
     "id": 509,
@@ -3741,7 +3741,7 @@
       "images/ps5/Returnal-inside.JPEG",
       "images/ps5/Returnal-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 18.77
   },
   {
     "id": 511,
@@ -3792,7 +3792,7 @@
       "images/ps5/Stray.JPEG",
       "images/ps5/Stray-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 20.9
   },
   {
     "id": 514,
@@ -3809,7 +3809,7 @@
       "images/ps5/Horizon_Forbidden_West.JPEG",
       "images/ps5/Horizon_Forbidden_West-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 18.63
   },
   {
     "id": 515,
@@ -3826,7 +3826,7 @@
       "images/ps5/Hell_is_US.JPEG",
       "images/ps5/Hell_is_US-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 15.78
   },
   {
     "id": 516,
@@ -3934,7 +3934,7 @@
       "images/ps5/Robocop_Rogue_city-inside.JPEG",
       "images/ps5/Robocop_Rogue_city-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 13.12
   },
   {
     "id": 522,
@@ -3951,7 +3951,7 @@
       "images/ps5/Kingdom_come_deliverance2.JPEG",
       "images/ps5/Kingdom_come_deliverance2-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 20.08
   },
   {
     "id": 523,
@@ -3968,7 +3968,7 @@
       "images/ps5/Sea_of_Strars.JPEG",
       "images/ps5/Sea_of_Strars-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 28.44
   },
   {
     "id": 525,
@@ -3985,7 +3985,7 @@
       "images/ps5/resident_evil_village.JPEG",
       "images/ps5/resident_evil_village-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 15.48
   },
   {
     "id": 526,
@@ -4020,7 +4020,7 @@
       "images/ps5/TheThauma.JPEG",
       "images/ps5/TheThauma-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 18.16
   },
   {
     "id": 528,
@@ -4037,7 +4037,7 @@
       "images/ps5/Skull_and_Bones.jpg",
       "images/ps5/Skull_and_Bones-back.jpg"
     ],
-    "precio": 0.0
+    "precio": 8.34
   },
   {
     "id": 529,
@@ -4071,7 +4071,7 @@
       "images/ps5/PRAGMATA.JPEG",
       "images/ps5/PRAGMATA-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 42.98
   },
   {
     "id": 531,
@@ -4088,7 +4088,7 @@
       "images/ps5/TAPE.JPEG",
       "images/ps5/TAPE-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 21.82
   },
   {
     "id": 532,
@@ -4105,7 +4105,7 @@
       "images/ps5/Stellar_Blade.JPEG",
       "images/ps5/Stellar_Blade-back.JPEG"
     ],
-    "precio": 0.0
+    "precio": 37.76
   },
   {
     "id": 524,
