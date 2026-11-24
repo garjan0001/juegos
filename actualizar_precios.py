@@ -15,36 +15,42 @@ HEADERS = {
 
 def obtener_precio_ebay(titulo, plataforma):
     query = urllib.parse.quote(f"{titulo} {plataforma}")
-    # Misma URL de artículos vendidos que usas en tu web
     url = f"https://ebay.es{query}&LH_Sold=1&LH_Complete=1"
     
     try:
         res = requests.get(url, headers=HEADERS, timeout=15)
         if res.status_code != 200:
+            print(f"  [Aviso] Código HTTP: {res.status_code}")
             return None
         
+        if "Pardon Our Interruption" in res.text or "captcha" in res.text.lower():
+            print("  [Bloqueo] eBay bloqueó la petición (CAPTCHA / Anti-bot)")
+            return None
+
         soup = BeautifulSoup(res.text, 'html.parser')
         precios = []
         
-        # Extraer los primeros 10 resultados vendidos
-        for item in soup.select('.s-item__price')[:10]:
-            texto = item.get_text()
-            # Ignorar rangos de precios (ej. "10,00 EUR a 20,00 EUR")
-            if ' a ' in texto:
+        # Busca tanto el selector clásico como el nuevo diseño de eBay
+        items = soup.select('.s-item__price, .s-card__price')
+        for item in items[:12]:
+            texto = item.get_text().strip()
+            if ' a ' in texto or ' to ' in texto:
                 continue
-            match = re.search(r'(\d+[.,]\d+)', texto)
+            match = re.search(r'(\d+(?:\.\d{3})*,\d{2})', texto)
             if match:
                 valor = float(match.group(1).replace('.', '').replace(',', '.'))
-                if 1.0 < valor < 2000.0: # Filtro básico contra errores
+                if 1.0 < valor < 2000.0:
                     precios.append(valor)
         
-        # Usar la mediana evita que precios absurdos alteren el valor real
         if precios:
             return round(statistics.median(precios), 2)
+        else:
+            print(f"  [Aviso] HTML recibido ({len(res.text)} bytes), pero 0 precios encontrados.")
     except Exception as e:
-        print(f"Error buscando {titulo}: {e}")
+        print(f"  [Error] {e}")
     
     return None
+
 
 def main():
     with open(RUTA_JSON, 'r', encoding='utf-8') as f:
