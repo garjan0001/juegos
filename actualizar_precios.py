@@ -2,7 +2,6 @@ import json
 import time
 import re
 import statistics
-import urllib.parse
 import requests
 from bs4 import BeautifulSoup
 
@@ -14,11 +13,15 @@ HEADERS = {
 }
 
 def obtener_precio_ebay(titulo, plataforma):
-    query = urllib.parse.quote(f"{titulo} {plataforma}")
-    url = f"https://ebay.es{query}&LH_Sold=1&LH_Complete=1"
-
+    url_base = "https://ebay.es"
+    parametros = {
+        '_nkw': f"{titulo} {plataforma}",
+        'LH_Sold': '1',
+        'LH_Complete': '1'
+    }
+    
     try:
-        res = requests.get(url, headers=HEADERS, timeout=15)
+        res = requests.get(url_base, params=parametros, headers=HEADERS, timeout=15)
         if res.status_code != 200:
             print(f"  [Aviso] Código HTTP: {res.status_code}")
             return None
@@ -30,7 +33,6 @@ def obtener_precio_ebay(titulo, plataforma):
         soup = BeautifulSoup(res.text, 'html.parser')
         precios = []
         
-        # Busca tanto el selector clásico como el nuevo diseño de eBay
         items = soup.select('.s-item__price, .s-card__price')
         for item in items[:12]:
             texto = item.get_text().strip()
@@ -51,7 +53,6 @@ def obtener_precio_ebay(titulo, plataforma):
     
     return None
 
-
 def main():
     with open(RUTA_JSON, 'r', encoding='utf-8') as f:
         juegos = json.load(f)
@@ -66,11 +67,9 @@ def main():
             juego['precio'] = precio
             print(f"  -> {precio} €")
         else:
-            # Mantiene el precio anterior si falla una consulta puntual
             juego.setdefault('precio', 0.0)
             print("  -> Sin cambios")
         
-        # Pausa obligatoria para evitar bloqueos en +200 peticiones
         time.sleep(2.5)
 
     with open(RUTA_JSON, 'w', encoding='utf-8') as f:
@@ -78,4 +77,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
