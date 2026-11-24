@@ -54,6 +54,29 @@ def a_slug(texto):
     texto = re.sub(r'[^a-z0-9]+', '-', texto).strip('-')
     return texto
 
+def generar_variantes_slug(titulo):
+    base = a_slug(titulo)
+    variantes = [base]
+
+    # 1. Convertir números finales 2, 3, 4 a romanos (ej. tomb-raider-2 -> tomb-raider-ii)
+    romanos = {'2': 'ii', '3': 'iii', '4': 'iv', '5': 'v'}
+    for num, rom in romanos.items():
+        if re.search(rf'-{num}$', base):
+            variantes.append(re.sub(rf'-{num}$', f'-{rom}', base))
+
+    # 2. Quitar 'disney-' si va al principio o al final (ej. disney-tarzan -> tarzan)
+    sin_disney = re.sub(r'(^disney-|-disney$)', '', base)
+    if sin_disney != base:
+        variantes.append(sin_disney)
+
+    # 3. Separar palabras pegadas comunes (ej. soulblade -> soul-blade, xmen -> x-men)
+    ajustes = base.replace('soulblade', 'soul-blade').replace('xmen', 'x-men').replace('everybodys', 'everybody-s')
+    if ajustes != base:
+        variantes.append(ajustes)
+
+    # Eliminar duplicados manteniendo el orden
+    return list(dict.fromkeys(variantes))
+
 def leer_ficha_directa(consola_slug, juego_slug):
     url = "/".join(["https://pricecharting.com", "game", consola_slug, juego_slug])
     res = SESSION.get(url, timeout=15)
@@ -61,7 +84,6 @@ def leer_ficha_directa(consola_slug, juego_slug):
         return None
 
     soup = BeautifulSoup(res.text, 'html.parser')
-    # #complete_price = Completo con caja y manual (CIB), #used_price = Suelto
     for selector in ['#complete_price .price', '#used_price .price']:
         el = soup.select_one(selector)
         if el:
@@ -70,21 +92,25 @@ def leer_ficha_directa(consola_slug, juego_slug):
                 return round(float(m.group(1).replace(',', '')) * TASA_USD_A_EUR, 2)
     return None
 
-def obtener_precio_pricecharting(titulo, plataforma, region=""):
+def obtener_precio_pricecharting(juego):
+    titulo = juego.get('titulo', '')
+    plataforma = juego.get('plataforma', '')
+    region = juego.get('region', '')
+
     base_consola = MAPA_SLUGS.get(plataforma.lower().strip(), a_slug(plataforma))
-    juego_slug = a_slug(titulo)
     es_pal = 'pal' in region.lower()
 
-    candidatas = []
-    if es_pal:
-        candidatas.append(f"pal-{base_consola}")
-    candidatas.append(base_consola)
+    consolas = [f"pal-{base_consola}", base_consola] if es_pal else [base_consola]
+    
+    # Si el juego tiene un slug manual en el JSON ("slug_pc"), lo usa primero
+    slugs_juego = [juego['slug_pc']] if juego.get('slug_pc') else generar_variantes_slug(titulo)
 
-    for consola_slug in candidatas:
-        precio = leer_ficha_directa(consola_slug, juego_slug)
-        if precio is not None:
-            return precio
-        time.sleep(0.5)
+    for consola_slug in consolas:
+        for j_slug in slugs_juego:
+            precio = leer_ficha_directa(consola_slug, j_slug)
+            if precio is not None:
+                return precio
+            time.sleep(0.4)
 
     return None
 
@@ -92,21 +118,24 @@ def main():
     with open(RUTA_JSON, 'r', encoding='utf-8') as f:
         juegos = json.load(f)
 
+    encontrados = 0
     for juego in juegos:
         titulo = juego.get('titulo', '')
         plataforma = juego.get('plataforma', '')
-        region = juego.get('region', '')
         print(f"Buscando precio: {titulo} ({plataforma})...", flush=True)
         
-        precio = obtener_precio_pricecharting(titulo, plataforma, region)
+        precio = obtener_precio_pricecharting(juego)
         if precio is not None:
             juego['precio'] = precio
+            encontrados += 1
             print(f"  -> {precio} €", flush=True)
         else:
             juego.setdefault('precio', 0.0)
-            print("  -> No encontrado (slug distinto)", flush=True)
+            print("  -> No encontrado", flush=True)
         
-        time.sleep(0.8)
+        time.sleep(0.6)
+
+    print(f"\nResumen: {encontrados}/{len(juegos)} juegos actualizados.", flush=True)
 
     with open(RUTA_JSON, 'w', encoding='utf-8') as f:
         json.dump(juegos, f, ensure_ascii=False, indent=2)
