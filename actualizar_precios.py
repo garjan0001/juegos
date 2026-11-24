@@ -47,47 +47,49 @@ MAPA_CONSOLAS = {
     'xbox one': 'Xbox One'
 }
 
-def consultar_url(query):
+def consultar_url(query, debug=False):
     url = "https://pricecharting.com"
-    res = SESSION.get(url, params={'q': query}, timeout=15)
+    res = SESSION.get(url, params={'q': query, 'type': 'prices'}, timeout=15)
     if res.status_code != 200:
         return None, res.status_code
 
     soup = BeautifulSoup(res.text, 'html.parser')
+    if debug:
+        titulo_pag = soup.title.string.strip() if soup.title else "Sin título"
+        print(f"  [Debug] URL: {res.url} | Título: {titulo_pag}", flush=True)
 
-    # 1. Si entra directo en la ficha del juego
+    # 1. Si redirige directo a la ficha del juego
     for selector in ['#complete_price .price', '#used_price .price']:
         el = soup.select_one(selector)
         if el:
-            m = re.search(r'(\d+(?:,\d{3})*\.\d{2})', el.get_text())
+            m = re.search(r'\$(\d+(?:,\d{3})*\.\d{2})', el.get_text())
             if m:
                 return round(float(m.group(1).replace(',', '')) * TASA_USD_A_EUR, 2), 200
 
-    # 2. Si devuelve tabla de resultados (busca cualquier celda con precio $)
-    for fila in soup.select('table tr'):
-        celdas = fila.select('td.price, td.cib_price, td.used_price')
-        # Normalmente la 2ª columna de precio es CIB (completo) y la 1ª es Loose (suelto)
-        candidatas = [celdas[1], celdas[0]] if len(celdas) >= 2 else celdas
-        for c in candidatas:
-            m = re.search(r'\$(\d+(?:,\d{3})*\.\d{2})', c.get_text())
-            if m:
-                return round(float(m.group(1).replace(',', '')) * TASA_USD_A_EUR, 2), 200
+    # 2. Si muestra la tabla de resultados
+    for fila in soup.select('table#games_table tbody tr, table tbody tr'):
+        celdas = fila.select('td.price')
+        if celdas:
+            # Índice 1 = CIB (completo con caja), Índice 0 = Loose (suelto)
+            orden = [celdas[1], celdas[0]] if len(celdas) >= 2 else [celdas[0]]
+            for celda in orden:
+                m = re.search(r'\$(\d+(?:,\d{3})*\.\d{2})', celda.get_text())
+                if m:
+                    return round(float(m.group(1).replace(',', '')) * TASA_USD_A_EUR, 2), 200
 
     return None, 200
 
-def obtener_precio_pricecharting(titulo, plataforma, region=""):
+def obtener_precio_pricecharting(titulo, plataforma, region="", debug=False):
     consola = MAPA_CONSOLAS.get(plataforma.lower().strip(), plataforma)
     es_pal = 'pal' in region.lower()
 
-    # Intento 1: con PAL si corresponde
     if es_pal:
-        precio, status = consultar_url(f"PAL {titulo} {consola}")
+        precio, status = consultar_url(f"PAL {titulo} {consola}", debug=debug)
         if precio is not None:
             return precio
         time.sleep(0.8)
 
-    # Intento 2: búsqueda estándar sin región
-    precio, status = consultar_url(f"{titulo} {consola}")
+    precio, status = consultar_url(f"{titulo} {consola}", debug=debug)
     if precio is not None:
         return precio
 
@@ -101,13 +103,13 @@ def main():
     with open(RUTA_JSON, 'r', encoding='utf-8') as f:
         juegos = json.load(f)
 
-    for juego in juegos:
+    for i, juego in enumerate(juegos):
         titulo = juego.get('titulo', '')
         plataforma = juego.get('plataforma', '')
         region = juego.get('region', '')
         print(f"Buscando precio: {titulo} ({plataforma})...", flush=True)
         
-        precio = obtener_precio_pricecharting(titulo, plataforma, region)
+        precio = obtener_precio_pricecharting(titulo, plataforma, region, debug=(i == 0))
         if precio is not None:
             juego['precio'] = precio
             print(f"  -> {precio} €", flush=True)
