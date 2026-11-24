@@ -1,6 +1,7 @@
 import json
 import time
 import re
+import unicodedata
 import requests
 from bs4 import BeautifulSoup
 
@@ -15,109 +16,97 @@ SESSION.headers.update({
 
 TASA_USD_A_EUR = 0.92
 
-MAPA_CONSOLAS = {
-    'playstation': 'Playstation',
-    'playstation 1': 'Playstation',
-    'ps1': 'Playstation',
-    'playstation 2': 'Playstation 2',
-    'ps2': 'Playstation 2',
-    'playstation 3': 'Playstation 3',
-    'ps3': 'Playstation 3',
-    'playstation 4': 'Playstation 4',
-    'ps4': 'Playstation 4',
-    'psp': 'PSP',
-    'ps vita': 'Playstation Vita',
-    'nintendo switch': 'Nintendo Switch',
-    'wii': 'Wii',
-    'wii u': 'Wii U',
-    'nintendo ds': 'Nintendo DS',
-    'nintendo 3ds': 'Nintendo 3DS',
-    'game boy': 'GameBoy',
-    'game boy color': 'GameBoy Color',
-    'game boy advance': 'GameBoy Advance',
-    'super nintendo': 'Super Nintendo',
-    'nes': 'NES',
-    'nintendo 64': 'Nintendo 64',
-    'gamecube': 'GameCube',
-    'megadrive': 'Sega Genesis',
-    'mega drive': 'Sega Genesis',
-    'dreamcast': 'Sega Dreamcast',
-    'xbox': 'Xbox',
-    'xbox 360': 'Xbox 360',
-    'xbox one': 'Xbox One'
+MAPA_SLUGS = {
+    'playstation': 'playstation',
+    'playstation 1': 'playstation',
+    'ps1': 'playstation',
+    'playstation 2': 'playstation-2',
+    'ps2': 'playstation-2',
+    'playstation 3': 'playstation-3',
+    'ps3': 'playstation-3',
+    'playstation 4': 'playstation-4',
+    'ps4': 'playstation-4',
+    'psp': 'psp',
+    'ps vita': 'playstation-vita',
+    'nintendo switch': 'nintendo-switch',
+    'wii': 'wii',
+    'wii u': 'wii-u',
+    'nintendo ds': 'nintendo-ds',
+    'nintendo 3ds': 'nintendo-3ds',
+    'game boy': 'gameboy',
+    'game boy color': 'gameboy-color',
+    'game boy advance': 'gameboy-advance',
+    'super nintendo': 'super-nintendo',
+    'nes': 'nes',
+    'nintendo 64': 'nintendo-64',
+    'gamecube': 'gamecube',
+    'megadrive': 'sega-genesis',
+    'mega drive': 'sega-genesis',
+    'dreamcast': 'sega-dreamcast',
+    'xbox': 'xbox',
+    'xbox 360': 'xbox-360',
+    'xbox one': 'xbox-one'
 }
 
-def consultar_url(query, debug=False):
-    url = "https://pricecharting.com"
-    res = SESSION.get(url, params={'q': query, 'type': 'prices'}, timeout=15)
+def a_slug(texto):
+    texto = unicodedata.normalize('NFKD', texto).encode('ascii', 'ignore').decode('ascii')
+    texto = texto.lower().replace('&', 'and')
+    texto = re.sub(r'[^a-z0-9]+', '-', texto).strip('-')
+    return texto
+
+def leer_ficha_directa(consola_slug, juego_slug):
+    url = f"https://pricecharting.com{consola_slug}/{juego_slug}"
+    res = SESSION.get(url, timeout=15)
     if res.status_code != 200:
-        return None, res.status_code
+        return None
 
     soup = BeautifulSoup(res.text, 'html.parser')
-    if debug:
-        titulo_pag = soup.title.string.strip() if soup.title else "Sin título"
-        print(f"  [Debug] URL: {res.url} | Título: {titulo_pag}", flush=True)
-
-    # 1. Si redirige directo a la ficha del juego
+    # #complete_price = Completo con caja y manual (CIB), #used_price = Suelto
     for selector in ['#complete_price .price', '#used_price .price']:
         el = soup.select_one(selector)
         if el:
             m = re.search(r'\$(\d+(?:,\d{3})*\.\d{2})', el.get_text())
             if m:
-                return round(float(m.group(1).replace(',', '')) * TASA_USD_A_EUR, 2), 200
+                return round(float(m.group(1).replace(',', '')) * TASA_USD_A_EUR, 2)
+    return None
 
-    # 2. Si muestra la tabla de resultados
-    for fila in soup.select('table#games_table tbody tr, table tbody tr'):
-        celdas = fila.select('td.price')
-        if celdas:
-            # Índice 1 = CIB (completo con caja), Índice 0 = Loose (suelto)
-            orden = [celdas[1], celdas[0]] if len(celdas) >= 2 else [celdas[0]]
-            for celda in orden:
-                m = re.search(r'\$(\d+(?:,\d{3})*\.\d{2})', celda.get_text())
-                if m:
-                    return round(float(m.group(1).replace(',', '')) * TASA_USD_A_EUR, 2), 200
-
-    return None, 200
-
-def obtener_precio_pricecharting(titulo, plataforma, region="", debug=False):
-    consola = MAPA_CONSOLAS.get(plataforma.lower().strip(), plataforma)
+def obtener_precio_pricecharting(titulo, plataforma, region=""):
+    base_consola = MAPA_SLUGS.get(plataforma.lower().strip(), a_slug(plataforma))
+    juego_slug = a_slug(titulo)
     es_pal = 'pal' in region.lower()
 
+    candidatas = []
     if es_pal:
-        precio, status = consultar_url(f"PAL {titulo} {consola}", debug=debug)
+        candidatas.append(f"pal-{base_consola}")
+    candidatas.append(base_consola)
+
+    for consola_slug in candidatas:
+        precio = leer_ficha_directa(consola_slug, juego_slug)
         if precio is not None:
             return precio
-        time.sleep(0.8)
+        time.sleep(0.5)
 
-    precio, status = consultar_url(f"{titulo} {consola}", debug=debug)
-    if precio is not None:
-        return precio
-
-    if status != 200:
-        print(f"  [Aviso] Código HTTP: {status}", flush=True)
-    else:
-        print("  [Aviso] Sin coincidencias en PriceCharting", flush=True)
     return None
 
 def main():
     with open(RUTA_JSON, 'r', encoding='utf-8') as f:
         juegos = json.load(f)
 
-    for i, juego in enumerate(juegos):
+    for juego in juegos:
         titulo = juego.get('titulo', '')
         plataforma = juego.get('plataforma', '')
         region = juego.get('region', '')
         print(f"Buscando precio: {titulo} ({plataforma})...", flush=True)
         
-        precio = obtener_precio_pricecharting(titulo, plataforma, region, debug=(i == 0))
+        precio = obtener_precio_pricecharting(titulo, plataforma, region)
         if precio is not None:
             juego['precio'] = precio
             print(f"  -> {precio} €", flush=True)
         else:
             juego.setdefault('precio', 0.0)
-            print("  -> Sin cambios", flush=True)
+            print("  -> No encontrado (slug distinto)", flush=True)
         
-        time.sleep(1.2)
+        time.sleep(0.8)
 
     with open(RUTA_JSON, 'w', encoding='utf-8') as f:
         json.dump(juegos, f, ensure_ascii=False, indent=2)
