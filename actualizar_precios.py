@@ -16,7 +16,7 @@ HEADERS = {
 def obtener_precio_ebay(titulo, plataforma):
     query = urllib.parse.quote(f"{titulo} {plataforma}")
     url = f"https://ebay.es{query}&LH_Sold=1&LH_Complete=1"
-    
+
     try:
         res = requests.get(url, headers=HEADERS, timeout=15)
         if res.status_code != 200:
