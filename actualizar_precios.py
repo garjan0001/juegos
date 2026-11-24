@@ -57,6 +57,44 @@ def a_slug(texto):
 def generar_variantes_slug(titulo):
     base = a_slug(titulo)
     variantes = [base]
+    
+    # Añade esto dentro de generar_variantes_slug(titulo) en actualizar_precios.py:
+    REEMPLAZOS_COMUNES = {
+        'gta-': 'grand-theft-auto-',
+        'los-sims': 'the-sims',
+        'onimusha': 'onimusha-warlords',
+        'tekken-tag': 'tekken-tag-tournament',
+        'resident-evil-code-veronica': 'resident-evil-code-veronica-x',
+        'socom': 'socom-us-navy-seals',
+        'dogs-life': 'dog-s-life',
+        'evil-twin': 'evil-twin-cyprien-s-chronicles',
+        'juiced-2': 'juiced-2-hot-import-nights',
+        'toca-racer-driver-2': 'toca-race-driver-2',
+        'crash-bandicoot-wrath-cortex': 'crash-bandicoot-the-wrath-of-cortex',
+        'crash-guerra-al-coco-maniaco': 'crash-mind-over-mutant',
+        'locos-por-el-surf': 'surf-s-up',
+        'gru-mi-villano-favorito': 'despicable-me',
+        'disney-monstruos-s-a': 'monsters-inc',
+        'disney-tarzan': 'tarzan-untamed',
+        'la-leyenda-de-spyro': 'the-legend-of-spyro-a-new-beginning',
+        'el-senor-de-los-anillos-las-dos-torres': 'the-lord-of-the-rings-the-two-towers',
+        'ratchet-and-clark-el-tamano-importa': 'ratchet-and-clank-size-matters',
+        'lara-croft-tomb-raider-el-angel-de-la-oscuridad': 'tomb-raider-the-angel-of-darkness',
+        'star-wars-episodio-3': 'star-wars-episode-iii-revenge-of-the-sith',
+        'lego-indiana': 'lego-indiana-jones-the-original-adventures',
+        'lego-star-wars-2': 'lego-star-wars-ii-the-original-trilogy',
+        'call-of-duty-modern-warface': 'call-of-duty-modern-warfare',
+        'kinect-adeventures': 'kinect-adventures',
+        'sonic-raiders': 'sonic-riders',
+        '18-eigteeen-wheeler': '18-wheeler-american-pro-truck',
+        'god-of-war-ii': 'god-of-war-2',
+        'god-of-war-triologia': 'god-of-war-trilogy',
+        'f1-champ-edition': 'formula-one-championship-edition',
+        'blazing-angels': 'blazing-angels-squadrons-of-wwii'
+    }
+    for k, v in REEMPLAZOS_COMUNES.items():
+        if base == k or base.startswith(k):
+            variantes.append(base.replace(k, v, 1))
 
     # 1. Convertir números finales 2, 3, 4 a romanos (ej. tomb-raider-2 -> tomb-raider-ii)
     romanos = {'2': 'ii', '3': 'iii', '4': 'iv', '5': 'v'}
