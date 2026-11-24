@@ -55,7 +55,7 @@ def a_slug(texto):
     return texto
 
 def leer_ficha_directa(consola_slug, juego_slug):
-    url = f"https://pricecharting.com{consola_slug}/{juego_slug}"
+    url = "/".join(["https://pricecharting.com", "game", consola_slug, juego_slug])
     res = SESSION.get(url, timeout=15)
     if res.status_code != 200:
         return None
