@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de precios — Mi Colección</title>
+  <!-- Librería ligera para leer YAML en el navegador -->
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background: #14161f;
+      color: #f1f3f5;
+    }
+    h1 { margin-bottom: 1.5rem; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #1e2230;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 10px 14px;
+      text-align: left;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    th { background: rgba(255,255,255,0.06); }
+    .error { color: #ff6b6b; }
+  </style>
+</head>
+<body>
+  <h1>📋 Lista de precios</h1>
+  <div id="contenedor-precios">⏳ Cargando precios...</div>
+
+  <script>
+    // Cambia esta ruta si tu .yml está en otra carpeta (ej. './datos/precios.yml')
+    const RUTA_YML = './precios.yml';
+
+    async function cargarPrecios() {
+      const contenedor = document.getElementById('contenedor-precios');
+      try {
+        const respuesta = await fetch(RUTA_YML);
+        if (!respuesta.ok) {
+          throw new Error(`No se pudo cargar ${RUTA_YML} (HTTP ${respuesta.status})`);
+        }
+
+        const textoYaml = await respuesta.text();
+        const datos = jsyaml.load(textoYaml);
+
+        // Admite tanto un array directo [{...}] como un objeto { juegos: [...] } o { precios: [...] }
+        const lista = Array.isArray(datos)
+          ? datos
+          : (datos.juegos || datos.precios || datos.items || []);
+
+        if (!Array.isArray(lista) || lista.length === 0) {
+          contenedor.innerHTML = '<pre>' + escapeHtml(textoYaml) + '</pre>';
+          return;
+        }
+
+        const columnas = Object.keys(lista[0]);
+        let tabla = '<table><thead><tr>';
+        columnas.forEach(col => {
+          tabla += `<th>${escapeHtml(col)}</th>`;
+        });
+        tabla += '</tr></thead><tbody>';
+
+        lista.forEach(item => {
+          tabla += '<tr>';
+          columnas.forEach(col => {
+            const valor = item[col] ?? '-';
+            tabla += `<td>${escapeHtml(String(valor))}</td>`;
+          });
+          tabla += '</tr>';
+        });
+
+        tabla += '</tbody></table>';
+        contenedor.innerHTML = tabla;
+      } catch (err) {
+        contenedor.innerHTML = `<p class="error">❌ Error al leer el archivo YAML: ${escapeHtml(err.message)}</p>`;
+      }
+    }
+
+    function escapeHtml(str) {
+      return str
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    cargarPrecios();
+  </script>
+</body>
+</html>
